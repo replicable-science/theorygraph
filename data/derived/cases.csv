@@ -1,0 +1,376 @@
+case_id,company,event,year,industry,pitch_words
+pilot-1,InDiagnostics,TechCrunch Disrupt 2023,2023,"HealthTech, Healthcare",1058
+pilot-1002,Alicanto,Disrupt SF 2012,2012,Marketing,836
+pilot-1003,YourMechanic,Disrupt SF 2012,2012,Marketplace,723
+pilot-1004,Zumper,Disrupt SF 2012,2012,Real Estate,969
+pilot-1005,BrightContext,Disrupt SF 2012,2012,SaaS/Enterprise,1136
+pilot-1007,Chronos,Disrupt SF 2012,2012,Geolocation,1414
+pilot-1009,Famo.us(AmazeSoftware),Disrupt SF 2012,2012,Dev Tools,1060
+pilot-1010,Fitiquette,Disrupt SF 2012,2012,AR/VR,911
+pilot-1011,Gyft,Disrupt SF 2012,2012,Ecommerce,856
+pilot-1012,HackerRank,Disrupt SF 2012,2012,"Education, Recruitment and Job",943
+pilot-1013,ImpulseSave,Disrupt SF 2012,2012,Consumer,1213
+pilot-1014,INRFOOD,Disrupt SF 2012,2012,Food and Beverage,994
+pilot-1015,Kinobi,Disrupt SF 2012,2012,Consumer,1131
+pilot-1016,LitMotors,Disrupt SF 2012,2012,Logistics,1006
+pilot-1017,Livestar,Disrupt SF 2012,2012,Mobile Apps,1116
+pilot-1018,Maluuba,Disrupt SF 2012,2012,Dev Tools,938
+pilot-1019,MindMeldbyExpectLabs,Disrupt SF 2012,2012,AI/Machine Learning,1405
+pilot-1022,Pathmapp,Disrupt SF 2012,2012,Dev Tools,1024
+pilot-1023,PayTap,Disrupt SF 2012,2012,Finance and Fintech,1173
+pilot-1024,PriorKnowledge,Disrupt SF 2012,2012,Analytics,1313
+pilot-1026,SayaMobile,Disrupt SF 2012,2012,Telecommunications,841
+pilot-1027,SocialFortress(IonicSecurity),Disrupt SF 2012,2012,Security & Privacy,978
+pilot-1028,Spinlister,Disrupt SF 2012,2012,Marketplace,1455
+pilot-1029,StudyHall,Disrupt SF 2012,2012,Edtech,1364
+pilot-1030,Tovbot,Disrupt SF 2012,2012,Consumer Goods,760
+pilot-1031,Undrip(Thusfresh),Disrupt SF 2012,2012,Big Data,1014
+pilot-1049,Weotta,Disrupt NY 2011,2011,Geolocation,1322
+pilot-1050,Avado,Disrupt NY 2011,2011,"HealthTech, Healthcare",933
+pilot-1051,BillGuard(ProsperDaily),Disrupt NY 2011,2011,Big Data,1108
+pilot-1052,CatchFree(Qualaroo),Disrupt NY 2011,2011,Marketplace,1076
+pilot-1053,ccLoop(Pipewise),Disrupt NY 2011,2011,Email,1319
+pilot-1054,CodeGuard,Disrupt NY 2011,2011,Security & Privacy,609
+pilot-1056,Desmos,Disrupt NY 2011,2011,Edtech,1127
+pilot-1059,Foretuit,Disrupt NY 2011,2011,Big Data,1035
+pilot-1060,Getaround,Disrupt NY 2011,2011,Marketplace,884
+pilot-1061,GnonstopGnomesbyChurnLabs,Disrupt NY 2011,2011,Gaming,1263
+pilot-1062,HappyToyMachine(RunofOne),Disrupt NY 2011,2011,Consumer Goods,591
+pilot-1063,InvoiceASAP,Disrupt NY 2011,2011,Finance and Fintech,823
+pilot-1064,Karizma,Disrupt NY 2011,2011,Geolocation,740
+pilot-1065,Kohort(GroupSpot),Disrupt NY 2011,2011,SaaS/Enterprise,873
+pilot-1066,Lumier,Disrupt NY 2011,2011,Consumer,541
+pilot-1067,MePorter,Disrupt NY 2011,2011,Mobile Apps,1279
+pilot-1068,MotherKnows(SchoolCare),Disrupt NY 2011,2011,"HealthTech, Healthcare",1053
+pilot-1069,Rexly,Disrupt NY 2011,2011,Mobile Apps,1118
+pilot-1070,Skylines,Disrupt NY 2011,2011,Photography,733
+pilot-1071,SmartheartbySHLTelemedicine,Disrupt NY 2011,2011,"HealthTech, Healthcare",1044
+pilot-1072,Sneakpeeq(SymphonyCommerce),Disrupt NY 2011,2011,Consumer,938
+pilot-1073,Sonar,Disrupt NY 2011,2011,SaaS/Enterprise,873
+pilot-1074,Spenz,Disrupt NY 2011,2011,Consumer,959
+pilot-1075,SpotOn,Disrupt NY 2011,2011,Consumer,1175
+pilot-1076,StyleSeat,Disrupt NY 2011,2011,Beauty,1198
+pilot-1077,ThinkFuse,Disrupt NY 2011,2011,SaaS/Enterprise,991
+pilot-1078,ThriftDBbyOctopart,Disrupt NY 2011,2011,Finance and Fintech,1032
+pilot-11,Akowe,TechCrunch Disrupt 2023,2023,SaaS/Enterprise,221
+pilot-1118,FluidDBbyFluidinfo,Disrupt NYC 2010,2010,Big Data,1062
+pilot-1133,Voxy,Disrupt SF 2010,2010,Edtech,1026
+pilot-1135,Badgeville,Disrupt SF 2010,2010,Analytics,1008
+pilot-1136,CheckPoints(InMarket),Disrupt SF 2010,2010,Consumer,846
+pilot-1137,CloudFlare,Disrupt SF 2010,2010,Software,1356
+pilot-1141,GameCrush(WhamSpot),Disrupt SF 2010,2010,Gaming,931
+pilot-1142,GifibyVenmo,Disrupt SF 2010,2010,Finance and Fintech,1047
+pilot-1143,Gild,Disrupt SF 2010,2010,Gaming,1165
+pilot-1144,Gripe,Disrupt SF 2010,2010,Geolocation,1193
+pilot-1145,Lark,Disrupt SF 2010,2010,AI/Machine Learning,766
+pilot-1147,Namesake(Chill),Disrupt SF 2010,2010,"Education, Recruitment and Job",1231
+pilot-1148,OneTrueFan,Disrupt SF 2010,2010,Gaming,1240
+pilot-1149,Opzi,Disrupt SF 2010,2010,Dev Tools,884
+pilot-1150,Pinger,Disrupt SF 2010,2010,Telecommunications,1128
+pilot-1151,Qwiki,Disrupt SF 2010,2010,Mobile Apps,904
+pilot-1153,Shwowp,Disrupt SF 2010,2010,Big Data,1110
+pilot-1154,SnapDragon,Disrupt SF 2010,2010,Consumer,1033
+pilot-1156,Sumazi,Disrupt SF 2010,2010,Analytics,968
+pilot-1157,Superfly,Disrupt SF 2010,2010,Aerospace,1079
+pilot-1158,Tello,Disrupt SF 2010,2010,Consumer,1161
+pilot-1159,ToVieFor,Disrupt SF 2010,2010,Consumer Goods,871
+pilot-1185,LocalBacon(Jibe),TechCrunch50-2009,2009,"Education, Recruitment and Job",1069
+pilot-1193,RedBeacon(ProReferral),TechCrunch50-2009,2009,Geolocation,2344
+pilot-123,KSOC,TechCrunch Disrupt 2023,2023,Security & Privacy,350
+pilot-127,LimeLoop,TechCrunch Disrupt 2023,2023,Sustainability,602
+pilot-129,MagnestarInc.,TechCrunch Disrupt 2023,2023,Space,1170
+pilot-130,Mainstack,TechCrunch Disrupt 2023,2023,Finance and Fintech,800
+pilot-131,MakersHub,TechCrunch Disrupt 2023,2023,Finance and Fintech,1016
+pilot-14,AllieSystems,TechCrunch Disrupt 2023,2023,IoT,758
+pilot-141,Moonstream.to,TechCrunch Disrupt 2023,2023,Telecommunications,709
+pilot-144,Narval,TechCrunch Disrupt 2023,2023,"HealthTech, Healthcare",860
+pilot-145,Nectar,TechCrunch Disrupt 2023,2023,Finance and Fintech,609
+pilot-148,NOLEJ,TechCrunch Disrupt 2023,2023,AI/Machine Learning,945
+pilot-152,ParallelHealth,TechCrunch Disrupt 2023,2023,"HealthTech, Healthcare",897
+pilot-158,Phalanx,TechCrunch Disrupt 2023,2023,Security & Privacy,854
+pilot-162,PortableDiagnosticSystems,TechCrunch Disrupt 2023,2023,"HealthTech, Healthcare",807
+pilot-170,REEKONToolsInc,TechCrunch Disrupt 2023,2023,Consumer Hardware,1327
+pilot-188,ToiLabs,TechCrunch Disrupt 2023,2023,"HealthTech, Healthcare",288
+pilot-190,UntapHealth,TechCrunch Disrupt 2023,2023,"HealthTech, Healthcare",919
+pilot-206,AllyRobotics,TechCrunch Disrupt 2022,2022,Security & Privacy,662
+pilot-207,AltSchoolAfrica,TechCrunch Disrupt 2022,2022,Edtech,802
+pilot-21,AppFactor,TechCrunch Disrupt 2023,2023,SaaS/Enterprise,1035
+pilot-210,Anthill,TechCrunch Disrupt 2022,2022,Human Resources/Recruiting,887
+pilot-212,AppMap,TechCrunch Disrupt 2022,2022,SaaS/Enterprise,753
+pilot-220,Vyrill,TechCrunch Disrupt 2022,2022,Advertising,296
+pilot-232,Betterdata,TechCrunch Disrupt 2022,2022,Blockchain,819
+pilot-236,CarbonUpcycling,TechCrunch Disrupt 2022,2022,"CleanTech, Energy",1033
+pilot-239,CircularGenomics,TechCrunch Disrupt 2022,2022,"HealthTech, Healthcare",935
+pilot-24,Artivatic.ai,TechCrunch Disrupt 2023,2023,"HealthTech, Healthcare",1011
+pilot-245,Digest.ai,TechCrunch Disrupt 2022,2022,Edtech,843
+pilot-265,Hormona,TechCrunch Disrupt 2022,2022,"HealthTech, Healthcare",883
+pilot-270,Incooling,TechCrunch Disrupt 2022,2022,"CleanTech, Energy",830
+pilot-272,IntropicMaterials,TechCrunch Disrupt 2022,2022,Sensors,935
+pilot-276,KayhanSpaceCorp,TechCrunch Disrupt 2022,2022,Aerospace,948
+pilot-281,Labby,TechCrunch Disrupt 2022,2022,AgTech,673
+pilot-294,MiTerro,TechCrunch Disrupt 2022,2022,Biotech,1507
+pilot-295,MinervaLithium,TechCrunch Disrupt 2022,2022,"CleanTech, Energy",686
+pilot-300,Nat4bio,TechCrunch Disrupt 2022,2022,Biotech,948
+pilot-304,NxGenPort,TechCrunch Disrupt 2022,2022,"HealthTech, Healthcare",878
+pilot-306,Omneky,TechCrunch Disrupt 2022,2022,Advertising,749
+pilot-307,Optery,TechCrunch Disrupt 2022,2022,Security & Privacy,347
+pilot-316,Pheronym,TechCrunch Disrupt 2022,2022,AgTech,422
+pilot-335,Reverion,TechCrunch Disrupt 2022,2022,Biotech,831
+pilot-356,Staax,TechCrunch Disrupt 2022,2022,Finance and Fintech,984
+pilot-361,SundialFoods,TechCrunch Disrupt 2022,2022,Food and Beverage,371
+pilot-362,SwapRobotics,TechCrunch Disrupt 2022,2022,AgTech,790
+pilot-395,NthCycle,TechCrunch Disrupt 2021,2021,"CleanTech, Energy",945
+pilot-42,Avalo,TechCrunch Disrupt 2023,2023,Sustainability,1091
+pilot-424,Wotch.io,Disrupt Berlin 2019,2019,Consumer,990
+pilot-425,BeBlocky,Disrupt Berlin 2019,2019,Edtech,775
+pilot-427,GenesisTherapeutics,Disrupt Berlin 2019,2019,AI/Machine Learning,938
+pilot-428,Gmelius,Disrupt Berlin 2019,2019,Email,1060
+pilot-429,HawaDawa,Disrupt Berlin 2019,2019,"CleanTech, Energy",813
+pilot-430,Inovat,Disrupt Berlin 2019,2019,Ecommerce,818
+pilot-431,NodleCash,Disrupt Berlin 2019,2019,Internet,814
+pilot-432,Nyxo,Disrupt Berlin 2019,2019,"HealthTech, Healthcare",589
+pilot-433,ScaledRobotics(Naska.AI),Disrupt Berlin 2019,2019,AI/Machine Learning,912
+pilot-434,Stable,Disrupt Berlin 2019,2019,Finance and Fintech,811
+pilot-435,Teooh(Roomkey),Disrupt Berlin 2019,2019,Events,643
+pilot-436,Avalow,Disrupt SF 2019,2019,Consumer Goods,1193
+pilot-437,CivicChamps,Disrupt SF 2019,2019,"Education, Recruitment and Job",776
+pilot-438,CRIAM,Disrupt SF 2019,2019,Biotech,787
+pilot-439,Delos,Disrupt SF 2019,2019,Consumer,1009
+pilot-440,LeoAerospace,Disrupt SF 2019,2019,Aerospace,1001
+pilot-441,LifeCouple,Disrupt SF 2019,2019,Consumer,954
+pilot-442,Molecule.one,Disrupt SF 2019,2019,AI/Machine Learning,683
+pilot-443,Mutiny,Disrupt SF 2019,2019,Advertising,805
+pilot-444,OmniVis,Disrupt SF 2019,2019,"HealthTech, Healthcare",755
+pilot-445,OrbitFab,Disrupt SF 2019,2019,Aerospace,1047
+pilot-446,Osano,Disrupt SF 2019,2019,Compliance,833
+pilot-447,Ozone.AI,Disrupt SF 2019,2019,Security & Privacy,692
+pilot-448,Render,Disrupt SF 2019,2019,Cloud Computing,758
+pilot-449,Sendmi,Disrupt SF 2019,2019,Finance and Fintech,1065
+pilot-450,StrattyX,Disrupt SF 2019,2019,Marketplace,787
+pilot-451,T4,Disrupt SF 2019,2019,Construction,735
+pilot-452,Traptic,Disrupt SF 2019,2019,AgTech,678
+pilot-453,ViseAI,Disrupt SF 2019,2019,AI/Machine Learning,905
+pilot-459,FluroSat(RegrowAgriculture),Startup Battlefield Australia,2019,AgTech,749
+pilot-482,ImagoAI,Disrupt Berlin 2018,2018,AgTech,707
+pilot-483,Kalepso(Bornio),Disrupt Berlin 2018,2018,Big Data,857
+pilot-485,Legacy,Disrupt Berlin 2018,2018,"HealthTech, Healthcare",1050
+pilot-487,Polyteia,Disrupt Berlin 2018,2018,"Government, Political",777
+pilot-489,SpikeDiabetesAssistant,Disrupt Berlin 2018,2018,"HealthTech, Healthcare",847
+pilot-502,LoriSystems,Disrupt SF 2018,2018,Logistics,975
+pilot-509,UnboundBabes,Disrupt SF 2018,2018,Consumer Goods,904
+pilot-522,PowerstoveEnergy,Startup Battlefield Africa 2018,2018,"CleanTech, Energy",918
+pilot-526,Wakeo,Startup Battlefield Europe 2018,2018,Logistics,709
+pilot-528,Wingly,Startup Battlefield Europe 2018,2018,Marketplace,942
+pilot-53,Betweened,TechCrunch Disrupt 2023,2023,Social Networking and Collaboration,1145
+pilot-532,Glowee,Startup Battlefield Europe 2018,2018,Biotech,988
+pilot-533,IOV(Starname),Startup Battlefield Europe 2018,2018,Blockchain,671
+pilot-534,Mapify,Startup Battlefield Europe 2018,2018,Travel and Transport,824
+pilot-54,BeyondAero,TechCrunch Disrupt 2023,2023,Sustainability,826
+pilot-551,OlhodoDono,Startup Battlefield Latin America,2018,AgTech,704
+pilot-558,Buildink,Startup Battlefield MENA 2018,2018,Construction,830
+pilot-56,Billseye,TechCrunch Disrupt 2023,2023,Finance and Fintech,316
+pilot-564,NATURANSA(FunaFoods),Startup Battlefield MENA 2018,2018,Biotech,820
+pilot-565,NeoticAI,Startup Battlefield MENA 2018,2018,AI/Machine Learning,722
+pilot-566,PureHarvestSmartFarms,Startup Battlefield MENA 2018,2018,AgTech,846
+pilot-568,Seez,Startup Battlefield MENA 2018,2018,Marketplace,779
+pilot-569,Synkers(Ostaz),Startup Battlefield MENA 2018,2018,Edtech,703
+pilot-585,Trillium,Disrupt Berlin 2017,2017,Automotive,600
+pilot-586,brightlamp(ReflexPro),Disrupt NY 2017,2017,AI/Machine Learning,792
+pilot-587,Collider,Disrupt NY 2017,2017,3-D Printing,826
+pilot-588,DeepScience,Disrupt NY 2017,2017,Security & Privacy,961
+pilot-589,DefinedCrowd(Defind.ai),Disrupt NY 2017,2017,AI/Machine Learning,719
+pilot-59,BioticsAI,TechCrunch Disrupt 2023,2023,AI/Machine Learning,920
+pilot-590,Domuso,Disrupt NY 2017,2017,Finance and Fintech,1132
+pilot-591,eCreditHero,Disrupt NY 2017,2017,Finance and Fintech,718
+pilot-592,FactGem(Beez),Disrupt NY 2017,2017,Analytics,890
+pilot-593,HelloAva,Disrupt NY 2017,2017,AI/Machine Learning,812
+pilot-595,LISNR(SmartToneAuthentication),Disrupt NY 2017,2017,Audio and Media,793
+pilot-596,Loji,Disrupt NY 2017,2017,Scheduling,878
+pilot-597,Nexla,Disrupt NY 2017,2017,Big Data,651
+pilot-598,NuCypher,Disrupt NY 2017,2017,Compliance,712
+pilot-599,RecordGram(Cre8tor.App),Disrupt NY 2017,2017,Big Data,1297
+pilot-600,Renly,Disrupt NY 2017,2017,Beauty,787
+pilot-601,Riminder(Hrflow),Disrupt NY 2017,2017,AI/Machine Learning,919
+pilot-602,SavitudeInc,Disrupt NY 2017,2017,Fashion,662
+pilot-603,SunriseHealth(MarigoldHealth),Disrupt NY 2017,2017,"HealthTech, Healthcare",1064
+pilot-604,Augmedics,Disrupt SF 2017,2017,Ecommerce,799
+pilot-605,Bridgefy,Disrupt SF 2017,2017,"HealthTech, Healthcare",838
+pilot-608,eggXYt,Disrupt SF 2017,2017,AgTech,240
+pilot-620,PiCharging(Spansive),Disrupt SF 2017,2017,Consumer Goods,806
+pilot-624,BLITAB,Hardware Battlefield 2017,2017,Consumer Goods,848
+pilot-625,Bloomlife,Hardware Battlefield 2017,2017,Female-focused,1169
+pilot-629,MunroMotor,Hardware Battlefield 2017,2017,Automotive,441
+pilot-630,PillarTechnologies,Hardware Battlefield 2017,2017,Logistics,905
+pilot-637,WeCashUp2.0,TechCrunch Startup Battlefield Africa,2017,Finance and Fintech,701
+pilot-647,SynCommerce,TechCrunch Startup Battlefield Africa,2017,Sales,599
+pilot-649,TangoTV,TechCrunch Startup Battlefield Africa,2017,Video and Entertainment,896
+pilot-65,ByteNite,TechCrunch Disrupt 2023,2023,Sustainability,285
+pilot-652,Fanmode,1st and Future,2016,Events,718
+pilot-659,ParanoidFan,1st and Future,2016,Events,723
+pilot-666,InsideDNA,Disrupt London 2016,2016,Biotech,931
+pilot-668,LiftIgniter,Disrupt London 2016,2016,Mobile Apps,920
+pilot-670,Oxehealth,Disrupt London 2016,2016,"HealthTech, Healthcare",1044
+pilot-671,PhenixP2PInc.,Disrupt London 2016,2016,Events,1083
+pilot-673,Seenit,Disrupt London 2016,2016,Events,1075
+pilot-674,Vault,Disrupt London 2016,2016,Finance and Fintech,2225
+pilot-675,Artveoli,Disrupt NY 2016,2016,"CleanTech, Energy",920
+pilot-678,WaterO,Disrupt NY 2016,2016,"CleanTech, Energy",1002
+pilot-679,Bark,Disrupt NY 2016,2016,Mobile Apps,868
+pilot-680,Behold.ai,Disrupt NY 2016,2016,AI/Machine Learning,793
+pilot-682,BitPagos(Ripio),Disrupt NY 2016,2016,Blockchain,895
+pilot-683,BOTIFY,Disrupt NY 2016,2016,Marketing,693
+pilot-684,CUJO,Disrupt NY 2016,2016,SaaS/Enterprise,931
+pilot-685,GitzerobyOverNest,Disrupt NY 2016,2016,Security & Privacy,721
+pilot-686,HaloNeuroscience,Disrupt NY 2016,2016,"HealthTech, Healthcare",914
+pilot-688,Laugh.ly,Disrupt NY 2016,2016,Consumer,1095
+pilot-689,Lumenus,Disrupt NY 2016,2016,Fashion,914
+pilot-692,Scoutible,Disrupt NY 2016,2016,"Education, Recruitment and Job",906
+pilot-693,SeaDronebyO-Robotix,Disrupt NY 2016,2016,IoT,958
+pilot-694,SpinnCoffee,Disrupt NY 2016,2016,Consumer Goods,1097
+pilot-697,WAZER,Disrupt SF 2016,2016,Consumer Hardware,795
+pilot-698,WeConnect,Disrupt SF 2016,2016,Mobile Apps,836
+pilot-699,BlazingDB(BlazingSQL),Disrupt SF 2016,2016,Finance and Fintech,851
+pilot-7,Agri-Trak,TechCrunch Disrupt 2023,2023,Sustainability,1149
+pilot-700,Breinify,Disrupt SF 2016,2016,AI/Machine Learning,960
+pilot-701,CarbonHealth,Disrupt SF 2016,2016,"HealthTech, Healthcare",1069
+pilot-702,EverlyWell(EverlyHealth),Disrupt SF 2016,2016,Consumer,844
+pilot-703,Giftbit,Disrupt SF 2016,2016,Ecommerce,879
+pilot-704,IFM(Onetrack.ai),Disrupt SF 2016,2016,SaaS/Enterprise,775
+pilot-706,MedRepublic(PulseProtocol),Disrupt SF 2016,2016,"HealthTech, Healthcare",869
+pilot-707,mFluiDx,Disrupt SF 2016,2016,Biotech,698
+pilot-709,myki,Disrupt SF 2016,2016,Security & Privacy,1006
+pilot-710,ProductBoard,Disrupt SF 2016,2016,Product Management,840
+pilot-711,Pundit,Disrupt SF 2016,2016,Audio and Media,989
+pilot-712,RexAnimalHealth,Disrupt SF 2016,2016,AgTech,1044
+pilot-713,Robin(MowbotbyRobinAutopilot),Disrupt SF 2016,2016,AgTech,937
+pilot-714,Sensay(Sense),Disrupt SF 2016,2016,Blockchain,930
+pilot-715,Slides,Disrupt SF 2016,2016,Marketing,939
+pilot-716,Sqreen,Disrupt SF 2016,2016,Ad Blocking,771
+pilot-717,TallyGo,Disrupt SF 2016,2016,SaaS/Enterprise,950
+pilot-718,UnifyID,Disrupt SF 2016,2016,AI/Machine Learning,870
+pilot-719,Wiivv(FitMyFoot),Hardware Battlefield 2016,2016,Consumer Goods,1047
+pilot-721,ElementalPath,Hardware Battlefield 2016,2016,Consumer Goods,795
+pilot-724,GlanceClock,Hardware Battlefield 2016,2016,Consumer Hardware,780
+pilot-727,JewelBots,Hardware Battlefield 2016,2016,Consumer Goods,991
+pilot-728,KATIAbyCarbonRobotics,Hardware Battlefield 2016,2016,3-D Printing,843
+pilot-733,YOOBIC,Disrupt London 2015,2015,Marketing,809
+pilot-735,EnergyElephant,Disrupt London 2015,2015,Analytics,919
+pilot-737,Hamwells,Disrupt London 2015,2015,Consumer Goods,721
+pilot-738,Jukedeck,Disrupt London 2015,2015,AI/Machine Learning,994
+pilot-739,Lystable(Polywork),Disrupt London 2015,2015,Finance and Fintech,1071
+pilot-746,Arctuition(ArcSite),Disrupt NY 2015,2015,Industrial,663
+pilot-757,DigitalGenius,Disrupt NY 2015,2015,AI/Machine Learning,486
+pilot-760,LiquidityNanotech,Disrupt NY 2015,2015,"CleanTech, Energy",1185
+pilot-761,Nativetap.io,Disrupt NY 2015,2015,Dev Tools,1281
+pilot-762,NikolaLabs(AssetWatch),Disrupt NY 2015,2015,"CleanTech, Energy",851
+pilot-764,Pagecloud,Disrupt NY 2015,2015,Design,1316
+pilot-766,Paribus,Disrupt NY 2015,2015,Ecommerce,1079
+pilot-769,RelevancyData,Disrupt NY 2015,2015,Advertising,862
+pilot-771,VimoFitbyVimoLabs,Disrupt NY 2015,2015,Sensors,779
+pilot-773,Agrilyst(Artemis),Disrupt SF 2015,2015,AgTech,953
+pilot-774,Aircall,Disrupt SF 2015,2015,Customer Service,972
+pilot-775,Artomatix,Disrupt SF 2015,2015,AI/Machine Learning,892
+pilot-778,CoheroHealth,Disrupt SF 2015,2015,Consumer Hardware,923
+pilot-786,LEAF,Disrupt SF 2015,2015,AgTech,894
+pilot-789,Preemadonna,Disrupt SF 2015,2015,Beauty,964
+pilot-790,RoboWunderkind,Disrupt SF 2015,2015,Edtech,515
+pilot-801,LyteShot,Hardware Battlefield 2015,2015,AR/VR,974
+pilot-802,NapTime,Hardware Battlefield 2015,2015,Analytics,772
+pilot-805,Sensibo,Hardware Battlefield 2015,2015,IoT,852
+pilot-806,Sentri,Hardware Battlefield 2015,2015,"CleanTech, Energy",979
+pilot-807,SerenetiKitchen,Hardware Battlefield 2015,2015,Food and Beverage,1046
+pilot-808,SkySpecs,Hardware Battlefield 2015,2015,AgTech,784
+pilot-810,Switchmate,Hardware Battlefield 2015,2015,"CleanTech, Energy",996
+pilot-811,Voltera,Hardware Battlefield 2015,2015,Consumer Hardware,865
+pilot-812,Zap!,Disrupt Europe 2014: London,2014,Automotive,925
+pilot-815,Crate.io(CrateDB),Disrupt Europe 2014: London,2014,Big Data,918
+pilot-816,DiseaseDiagnosticGroup,Disrupt Europe 2014: London,2014,Analytics,999
+pilot-824,OscultbyOscadi,Disrupt Europe 2014: London,2014,"HealthTech, Healthcare",864
+pilot-828,Vurb,Disrupt NY 2014,2014,Mobile Apps,946
+pilot-829,BoomerangCommerce(CommerceIQ),Disrupt NY 2014,2014,AI/Machine Learning,922
+pilot-83,DeepdeeBV,TechCrunch Disrupt 2023,2023,"HealthTech, Healthcare",975
+pilot-835,Evercam,Disrupt NY 2014,2014,Construction,992
+pilot-836,Fidesmo,Disrupt NY 2014,2014,Consumer Hardware,884
+pilot-838,HeatworksbyISITechnology,Disrupt NY 2014,2014,Industrial,1100
+pilot-839,KurboHealth,Disrupt NY 2014,2014,"HealthTech, Healthcare",1013
+pilot-841,MimiHearingTechnologiesGmbH,Disrupt NY 2014,2014,Consumer Goods,940
+pilot-842,Mink,Disrupt NY 2014,2014,3-D Printing,834
+pilot-844,OfferBoard,Disrupt NY 2014,2014,Finance and Fintech,1008
+pilot-848,Sedicii,Disrupt NY 2014,2014,Security & Privacy,836
+pilot-849,ShowKit,Disrupt NY 2014,2014,Software,952
+pilot-852,TangoPC,Disrupt NY 2014,2014,"CleanTech, Energy",701
+pilot-853,Alfred,Disrupt SF 2014,2014,On-Demand,903
+pilot-860,DondeSearch,Disrupt SF 2014,2014,Ecommerce,438
+pilot-861,DynoSense,Disrupt SF 2014,2014,"HealthTech, Healthcare",766
+pilot-862,FishingBooker,Disrupt SF 2014,2014,Marketplace,576
+pilot-866,MailTime,Disrupt SF 2014,2014,Email,708
+pilot-868,PatternEQInc.,Disrupt SF 2014,2014,Analytics,1045
+pilot-87,ElectrifiedThermalSolutions,TechCrunch Disrupt 2023,2023,Sustainability,1137
+pilot-872,SelfLenderLLC(SelfFinancial),Disrupt SF 2014,2014,Finance and Fintech,727
+pilot-873,Shipstr(Fleet),Disrupt SF 2014,2014,Logistics,858
+pilot-874,SOPNotify,Disrupt SF 2014,2014,"CleanTech, Energy",869
+pilot-876,StudyRoom,Disrupt SF 2014,2014,Edtech,965
+pilot-877,TableGrabber,Disrupt SF 2014,2014,Food and Beverage,1226
+pilot-878,TailorBrands,Disrupt SF 2014,2014,AI/Machine Learning,800
+pilot-880,Vinli,Disrupt SF 2014,2014,Cloud Computing,1025
+pilot-881,AdhereTech,Hardware Battlefield,2014,"HealthTech, Healthcare",1112
+pilot-889,Health2Sync,Hardware Battlefield,2014,"HealthTech, Healthcare",795
+pilot-891,Modbot,Hardware Battlefield,2014,Robotics,1002
+pilot-892,OwletBabyCare,Hardware Battlefield,2014,Consumer Goods,1129
+pilot-893,SentryScientific,Hardware Battlefield,2014,Elder Care,1110
+pilot-895,Asap54(FashionConcierge),Disrupt Europe 2013,2013,Ecommerce,752
+pilot-900,import.io,Disrupt Europe 2013,2013,Logistics,862
+pilot-903,Lock8(NoaTechnologies),Disrupt Europe 2013,2013,IoT,813
+pilot-909,voicesphere,Disrupt Europe 2013,2013,Audio and Media,1028
+pilot-910,3DLT,Disrupt NY 2013,2013,Ecommerce,694
+pilot-911,42Technologies,Disrupt NY 2013,2013,Big Data,1153
+pilot-912,AppArchitect,Disrupt NY 2013,2013,Dev Tools,1059
+pilot-913,Workspot,Disrupt NY 2013,2013,Marketplace,1046
+pilot-914,Zenefits,Disrupt NY 2013,2013,Human Resources/Recruiting,1038
+pilot-915,Bidzy,Disrupt NY 2013,2013,Consumer,1136
+pilot-916,Docurated,Disrupt NY 2013,2013,Big Data,605
+pilot-917,Donay,Disrupt NY 2013,2013,Dev Tools,726
+pilot-918,EatWith,Disrupt NY 2013,2013,Food and Beverage,907
+pilot-919,EnigmaTechnologies,Disrupt NY 2013,2013,Analytics,1096
+pilot-920,Floored,Disrupt NY 2013,2013,AR/VR,1175
+pilot-922,Glider,Disrupt NY 2013,2013,Finance and Fintech,858
+pilot-923,Gradfly,Disrupt NY 2013,2013,Edtech,1098
+pilot-924,Handle,Disrupt NY 2013,2013,Email,1158
+pilot-925,HealthyOut,Disrupt NY 2013,2013,Delivery,865
+pilot-926,KeenHome,Disrupt NY 2013,2013,"CleanTech, Energy",987
+pilot-927,Kisi,Disrupt NY 2013,2013,IoT,852
+pilot-928,Kloudless,Disrupt NY 2013,2013,Cloud Computing,981
+pilot-929,Meritful,Disrupt NY 2013,2013,CRM,1081
+pilot-930,NimbusBase,Disrupt NY 2013,2013,Cloud Computing,1012
+pilot-932,Retrace(Uncloaked),Disrupt NY 2013,2013,Scheduling,818
+pilot-933,SharePractice,Disrupt NY 2013,2013,"HealthTech, Healthcare",1168
+pilot-934,ShipHawk,Disrupt NY 2013,2013,Retail,1064
+pilot-935,Spacebar,Disrupt NY 2013,2013,Events,843
+pilot-937,SupplyShift,Disrupt NY 2013,2013,Big Data,948
+pilot-938,Talkz,Disrupt NY 2013,2013,Mobile Apps,845
+pilot-939,Trustev,Disrupt NY 2013,2013,Ecommerce,1002
+pilot-940,UQLife(LearnSync),Disrupt NY 2013,2013,Edtech,1061
+pilot-941,2600hz,Disrupt SF 2013,2013,Marketplace,1213
+pilot-943,Zula,Disrupt SF 2013,2013,Social Networking and Collaboration,1054
+pilot-944,Beestar,Disrupt SF 2013,2013,Consumer Hardware,745
+pilot-946,BRANDiD,Disrupt SF 2013,2013,Ecommerce,1083
+pilot-948,CPUsage,Disrupt SF 2013,2013,Marketplace,1072
+pilot-950,Dryft(TypeSoftTechnologies),Disrupt SF 2013,2013,Consumer Hardware,1106
+pilot-953,Feed.fm,Disrupt SF 2013,2013,Marketing,899
+pilot-954,FirstCutPro(Remark),Disrupt SF 2013,2013,Ecommerce,1118
+pilot-956,InsideMaps,Disrupt SF 2013,2013,AR/VR,795
+pilot-958,Koality,Disrupt SF 2013,2013,Dev Tools,1103
+pilot-961,NextCaller,Disrupt SF 2013,2013,Customer Service,899
+pilot-962,Osmo(TangiblePlay),Disrupt SF 2013,2013,Consumer Goods,840
+pilot-963,Ossia,Disrupt SF 2013,2013,Consumer Hardware,895
+pilot-964,Outline,Disrupt SF 2013,2013,Analytics,959
+pilot-965,Regalii(Arcus),Disrupt SF 2013,2013,Compliance,574
+pilot-968,SlickLogin,Disrupt SF 2013,2013,Security & Privacy,824
+pilot-969,TidePool,Disrupt SF 2013,2013,Photography,760
+pilot-976,Babelverse,Disrupt NY 2012,2012,Language,1032
+pilot-979,Cardify,Disrupt NY 2012,2012,Consumer,998
+pilot-98,Flint,TechCrunch Disrupt 2023,2023,Sustainability,1139
+pilot-981,gTarbyIncident,Disrupt NY 2012,2012,Edtech,260
+pilot-986,KurbKarma,Disrupt NY 2012,2012,Mobility,979
+pilot-988,OpenGarden,Disrupt NY 2012,2012,Internet,427
+pilot-998,Tagbrand,Disrupt NY 2012,2012,Social Networking and Collaboration,744

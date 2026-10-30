@@ -1,0 +1,376 @@
+case_id,consensus_run,text,text_withheld
+pilot-1,1,"Blood testing becomes easier, more affordable, and accessible for veterinary use.",False
+pilot-1002,2,Small businesses can effectively market themselves and grow through Alicanto,False
+pilot-1003,2,Customers can resolve car issues quickly and conveniently.,False
+pilot-1004,1,Tenants can find and secure apartments more efficiently and effectively,False
+pilot-1005,2,Developers can create innovative applications powered by real-time data processing.,False
+pilot-1007,1,Kronos helps users live their lives more intentionally by providing insights into their time usage.,False
+pilot-1009,1,Designers and developers can create high-performance applications using Famo.us.,False
+pilot-1010,1,Consumers can shop for clothes online with confidence in fit and style,False
+pilot-1011,2,GIFT simplifies the management and use of gift cards for consumers,False
+pilot-1012,1,Hackers can engage in competitive programming and solve real-world problems.,False
+pilot-1013,1,Users can save money easily and effectively through Impulse Save.,False
+pilot-1014,2,Consumers can make healthier food choices through informed ingredient analysis.,False
+pilot-1015,2,Users gain confidence to learn new activities through personalized instruction,False
+pilot-1016,1,"The C1 provides a safe, efficient, and affordable transportation solution",False
+pilot-1017,1,Users receive personalized and trustworthy recommendations quickly.,False
+pilot-1018,1,Users can accomplish tasks efficiently through a voice-activated search engine,False
+pilot-1019,1,Conversations can be improved with real-time information access through MindMeld,False
+pilot-1022,1,Pathmap helps users see their app through their users' eyes,False
+pilot-1023,1,PayTap simplifies and secures the process of shared payments.,False
+pilot-1024,1,Users can build smarter applications without needing deep technical knowledge.,False
+pilot-1026,1,Non-smartphone users gain access to enhanced messaging and internet services,False
+pilot-1027,1,Users regain control over their digital content and data.,False
+pilot-1028,3,SpinLister enables affordable and personalized bike rentals for travelers and locals.,False
+pilot-1029,1,Students can enhance their academic experience through peer-to-peer learning.,False
+pilot-1030,1,"Personal robotics can become engaging, affordable, and fun to use in homes.",False
+pilot-1031,1,Users can discover and share relevant content in a noise-free environment,False
+pilot-1049,2,Planning social occasions becomes easier and more personalized through Viata,False
+pilot-1050,1,"Patients can live longer, higher quality lives while paying less through empowered health care partnerships.",False
+pilot-1051,2,Consumers can protect themselves from financial losses due to billing errors and fraud.,False
+pilot-1052,1,Users can find safe and reliable free products through Catch-Free,False
+pilot-1053,2,Email can be made more effective and collaborative in the workplace.,False
+pilot-1054,1,Website protection is accessible and easy to use for everyone,False
+pilot-1056,2,"Education can be transformed through accessible, interactive, and collaborative software",False
+pilot-1059,2,Sales representatives gain control and transparency over their sales processes.,False
+pilot-1060,1,Car ownership can be redefined through peer-to-peer car sharing,False
+pilot-1061,1,Users can enjoy a fun and interactive experience with their digital gnomes,False
+pilot-1062,1,Users can create unique and personalized plush toys.,False
+pilot-1063,1,Businesses can manage their operations more efficiently on the go,False
+pilot-1064,1,Users can interact with nearby people in a spontaneous and fun way,False
+pilot-1065,2,Cohort provides a comprehensive platform for community engagement.,False
+pilot-1066,2,Users will benefit from a more intuitive and efficient computing experience,False
+pilot-1067,1,Local news becomes more accessible and engaging through user-generated content,False
+pilot-1068,1,Parents can access and manage their children's health records easily and securely,False
+pilot-1069,2,,True
+pilot-1070,1,Users can find and share photos that match their interests in real-time.,False
+pilot-1071,1,Smart Heart improves healthcare and quality of living by enabling quick ECG exams.,False
+pilot-1072,3,Sneak Peek enhances product discovery and purchasing through social proof and engagement.,False
+pilot-1073,1,Sonar helps users make meaningful connections at events.,False
+pilot-1074,1,"Users can track their spending in a fun, fast, and anonymous way.",False
+pilot-1075,1,Users enjoy personalized experiences when going out with friends.,False
+pilot-1076,1,Stylists gain control over their online presence and business management.,False
+pilot-1077,1,ThinkVue makes status reports more accessible and powerful for organizational alignment.,False
+pilot-1078,1,Search technology becomes simpler and more powerful for users,False
+pilot-11,1,Academic credentials are issued and carried safely and verifiably,False
+pilot-1118,1,FluidDB provides a platform for a more valuable and useful data ecosystem.,False
+pilot-1133,1,Voxy provides an innovative and engaging language learning solution,False
+pilot-1135,1,Maximizing engagement for publishers through loyalty and rewards,False
+pilot-1136,1,Consumers receive rewards and interactive content while shopping.,False
+pilot-1137,2,Cloudflare makes the web faster and safer for all website operators,False
+pilot-1141,1,Game Crush creates a secure and engaging online gaming experience,False
+pilot-1142,1,Giphy makes social interactions more engaging and fun,False
+pilot-1143,1,Professionals can advance their careers through competitions and direct connections with employers,False
+pilot-1144,1,Complaints can be resolved effectively through social influence and local engagement,False
+pilot-1145,1,Couples can sleep better together and improve their relationship quality,False
+pilot-1147,1,Namesake facilitates easier connections and opportunities for creators.,False
+pilot-1148,2,Users can be recognized and rewarded for their loyalty and engagement with websites.,False
+pilot-1149,1,Companies can share knowledge effectively through a collaborative platform.,False
+pilot-1150,1,Users can access free and high-quality mobile communication services,False
+pilot-1151,1,Information consumption becomes interactive and personalized.,False
+pilot-1153,1,Consumers gain meaningful insights and leverage from their shopping data,False
+pilot-1154,1,Consumer product marketing becomes more effective and engaging through targeted rewards and gamification,False
+pilot-1156,1,Users can connect intelligently to valuable people and opportunities,False
+pilot-1157,2,Users can maximize their travel rewards and achieve elite status more efficiently.,False
+pilot-1158,1,Customers receive better service through feedback mechanisms,False
+pilot-1159,1,Women gain access to coveted handbags and accessories at prices they choose.,False
+pilot-1185,1,LocalBacon improves the job application process for both job seekers and employers,False
+pilot-1193,2,Consumers can easily book local services with transparency and convenience.,False
+pilot-123,1,Organizations can protect their Kubernetes clusters from cybersecurity threats,False
+pilot-127,3,The supply chain can become more sustainable through the use of reusable packaging,False
+pilot-129,1,The platform enhances spectrum management for satellite operators and regulators.,False
+pilot-130,3,Entrepreneurs and creators can showcase their work and receive payments easily and securely,False
+pilot-131,1,Makers Hub provides a more efficient accounts payable process for businesses,False
+pilot-14,1,Manufacturing becomes more efficient and sustainable through intelligent operations,False
+pilot-141,1,Web3 games can maintain healthy economies through effective management and community engagement,False
+pilot-144,2,"Antibody drugs will become affordable, accessible, and easy to use.",False
+pilot-145,2,Beekeepers can manage their hives more effectively and sustainably,False
+pilot-148,1,Learners can access dynamic and personalized educational experiences in real time.,False
+pilot-152,1,Patients can receive personalized phage treatments based on their skin microbiome,False
+pilot-158,2,Phalanx allows users to focus on productivity while ensuring data security.,False
+pilot-162,1,Forensic toxicology and diagnostic testing can become more accessible and affordable.,False
+pilot-170,1,Construction processes become more efficient and less wasteful through digital tools,False
+pilot-188,1,Health monitoring becomes more accessible and less intrusive through Truloo,False
+pilot-190,1,Preventative healthcare solutions can be enhanced through early detection of illnesses,False
+pilot-206,1,"Robotics can be enabled for anyone, anywhere",False
+pilot-207,1,Every African can access technical skills and opportunities in the job market,False
+pilot-21,2,Enterprises can modernize applications efficiently and reduce technical debt,False
+pilot-210,2,"Antil improves connectivity, access, education, and engagement for deskless workers.",False
+pilot-212,1,AppMap helps developers reduce toil and improve their coding experience.,False
+pilot-220,1,Waro provides video intelligence for video commerce,False
+pilot-232,1,Companies can innovate on data quickly while ensuring customer privacy.,False
+pilot-236,1,"Carbon emissions can be captured and converted into valuable products, contributing to sustainability.",False
+pilot-239,2,Precision medicine can improve mental health diagnostics and treatment outcomes,False
+pilot-24,1,Healthcare processes can become more efficient and scalable through intelligent solutions,False
+pilot-245,2,Learning becomes more engaging and efficient for students and employees,False
+pilot-265,2,Women gain better understanding and management of their hormonal health.,False
+pilot-270,2,,True
+pilot-272,2,"Materials can be made to degrade and return to the environment, reducing plastic pollution",False
+pilot-276,1,Pathfinder enhances the safety and efficiency of satellite operations.,False
+pilot-281,3,Automatic testing improves animal health and profitability in the dairy industry,False
+pilot-294,1,"Matero provides a sustainable alternative to PBA, reducing microplastic pollution.",False
+pilot-295,1,,True
+pilot-300,1,Food waste can be reduced without compromising human or planetary health,False
+pilot-304,1,NextGenPort provides life-saving health information and alerts for early intervention,False
+pilot-306,1,OmniKey enables effective and data-driven advertising content generation,False
+pilot-307,1,Individuals gain control over their personal data and privacy.,False
+pilot-316,1,Farmers can achieve eco-friendly pest control to protect their crops,False
+pilot-335,1,"The world can benefit from decentralized, carbon-negative, and highly efficient power plants",False
+pilot-356,1,Users can grow their wealth through everyday transactions,False
+pilot-361,1,Consumers can enjoy plant-based meat products that mimic the taste and texture of real chicken,False
+pilot-362,2,Outdoor work equipment can become 100% electric and sustainable,False
+pilot-395,3,American innovation can be liberated from metal supply constraints,False
+pilot-42,1,New and resilient crop varieties can be created to support sustainable agriculture.,False
+pilot-424,2,Creators are rewarded and empowered while consumers enjoy a safer and more social experience.,False
+pilot-425,1,Children can learn coding in a fun and engaging way through B-Block,False
+pilot-427,2,The drug development process can help people get medicines for diseases with limited options.,False
+pilot-428,1,Jamilius empowers teams to communicate and collaborate effectively across different platforms,False
+pilot-429,1,Air quality data is essential for improving public health and urban planning,False
+pilot-430,1,Travelers can receive their VET refunds quickly and easily,False
+pilot-431,2,People can reclaim ownership of their data and earn rewards for contributing to a secure Internet,False
+pilot-432,1,Employees can improve their sleep quality and overall well-being through personalized coaching.,False
+pilot-433,1,Construction projects can stay on budget and on schedule with improved measurement and tracking,False
+pilot-434,1,Stable delivers financial confidence to clients in the food industry,False
+pilot-435,2,Virtual events can effectively combine learning and socializing for users,False
+pilot-436,1,Users can successfully grow plants in various environments with minimal effort.,False
+pilot-437,3,Non-profits can manage volunteers efficiently and convert them into donors,False
+pilot-438,2,The device allows for faster and more affordable blood type testing in emergency situations.,False
+pilot-439,2,Homeowners can obtain insurance for low-risk homes in wildfire regions,False
+pilot-440,1,,True
+pilot-441,1,Couples can maintain and improve their relationship health through a digital platform,False
+pilot-442,1,"Medicines can be made faster, leading to quicker patient care",False
+pilot-443,1,B2B companies can convert more traffic into leads through personalized website experiences.,False
+pilot-444,1,Rapid detection of cholera and other pathogens can save lives.,False
+pilot-445,2,The space industry can recover lost revenue by refueling satellites in orbit.,False
+pilot-446,1,Companies can easily manage data privacy and compliance obligations.,False
+pilot-447,2,Users can take back control of their data and monetize it ethically,False
+pilot-448,1,Developers can automate cloud hosting and save on engineering costs,False
+pilot-449,1,Employees can send money internationally with lower costs and higher transparency,False
+pilot-450,1,Everyday investors gain access to algorithmic trading tools that were previously unavailable to them.,False
+pilot-451,1,Analysts can save significant time and effort in market research,False
+pilot-452,2,Traptic aims to save the world's food production system through automation,False
+pilot-453,1,Investment advisors can deliver personalized and effective portfolio management.,False
+pilot-459,1,Farmers can achieve higher productivity and reduce fertilizer waste,False
+pilot-482,1,Seed companies can produce better quality seeds in lesser time,False
+pilot-483,2,Data can be stored and analyzed securely without exposing sensitive information.,False
+pilot-485,1,Men can test and freeze their sperm in a discreet and consumer-friendly manner,False
+pilot-487,2,City leaders can make data-driven decisions to improve citizen services,False
+pilot-489,2,Diabetes management becomes less burdensome and more effective.,False
+pilot-502,2,Lori aims to revolutionize the logistics system across Africa and reduce the cost of goods.,False
+pilot-509,2,Female sexuality should be accepted and elevated through better products and education,False
+pilot-522,1,Clean cooking solutions improve health and safety for families.,False
+pilot-526,2,Weikio improves supply chain efficiency and reduces costs for industrial shippers,False
+pilot-528,2,Private aviation becomes more accessible and affordable for everyone,False
+pilot-53,1,Kids can grow up thoughtful and practiced in their engagement with social media.,False
+pilot-532,1,Bioluminescent lighting provides a sustainable and innovative alternative to traditional electric lighting,False
+pilot-533,1,Blockchain technology can facilitate secure and efficient transactions across different systems,False
+pilot-534,1,Travel planning becomes easier and more personalized through Mapify.,False
+pilot-54,1,Aviation can become sustainable through the use of hydrogen technology.,False
+pilot-551,1,Farmers can increase cattle productivity and profitability while maintaining animal well-being.,False
+pilot-558,1,Families can receive homes quickly and safely after disasters.,False
+pilot-56,1,Professionals can effectively bill for their time spent on mobile calls.,False
+pilot-564,1,Natransa provides a sustainable and nutritious alternative protein source.,False
+pilot-565,1,Users can make informed trading decisions using AI-driven strategies.,False
+pilot-566,1,"Food security can be achieved through sustainable, locally grown produce in arid climates",False
+pilot-568,1,Consumers can find the right car at the right time and price through a comprehensive platform.,False
+pilot-569,1,Education becomes more accessible through a peer-to-peer tutoring platform.,False
+pilot-585,1,"Vehicles can be protected from hacking, enabling safer mobility solutions.",False
+pilot-586,2,Healthcare can be made more accessible and affordable through mobile diagnostics.,False
+pilot-587,1,"Manufacturing can become faster, cheaper, and more accessible through innovative 3D printing technology.",False
+pilot-588,2,Small businesses can achieve real-time security monitoring and threat detection affordably,False
+pilot-589,2,The Fine Crowd accelerates intelligence in machines by solving data problems,False
+pilot-59,1,Pregnant patients receive improved quality of care through enhanced diagnostics.,False
+pilot-590,1,Rent payments can become flexible and manageable for residents.,False
+pilot-591,1,Americans can take control of their financial lives and improve their credit scores,False
+pilot-592,1,Businesses can gain insights quickly and efficiently from their data,False
+pilot-593,1,Consumers can achieve better skin and gain confidence through personalized recommendations,False
+pilot-595,1,Listener enables seamless and secure connections across devices through sound technology,False
+pilot-596,2,Consumers receive useful information through interactive logos in messaging,False
+pilot-597,3,Businesses can focus on scaling while Nexler manages their data operations,False
+pilot-598,1,Data security is enhanced through NewCypher's encryption technology.,False
+pilot-599,1,Rekrogram empowers aspiring artists to create and share original music affordably,False
+pilot-600,2,Service professionals can find and manage rental spaces efficiently,False
+pilot-601,2,Recruiters can focus on emotionally intelligent tasks while identifying relevant talent efficiently.,False
+pilot-602,1,Savitude helps women shop more effectively by providing personalized clothing recommendations.,False
+pilot-603,2,Access to mental health care can be improved through technology and peer support.,False
+pilot-604,1,Surgeons can perform procedures with enhanced visibility and precision,False
+pilot-605,2,"BridgeFi enhances communication access in critical situations, potentially saving lives",False
+pilot-608,1,The venture addresses ethical and financial challenges in the layer industry.,False
+pilot-620,2,Consumers can charge multiple devices conveniently and safely without tangled wires,False
+pilot-624,1,,True
+pilot-625,1,Bloom Life improves prenatal care and health outcomes for moms and babies,False
+pilot-629,1,"Consumers can access a clean, customizable, and efficient mode of transportation.",False
+pilot-630,1,The monitoring solution reduces preventable damages and improves construction quality.,False
+pilot-637,2,Merchants can accept payments easily and securely across various platforms.,False
+pilot-647,1,Online merchants can effectively manage multi-channel retailing and increase sales,False
+pilot-649,2,Local content is accessible through a streaming platform.,False
+pilot-65,1,Computing becomes sustainable and equitable through a distributed device grid,False
+pilot-652,1,Fans can feel more connected to the game and participate actively.,False
+pilot-659,1,Fans gain a more enjoyable and efficient game day experience.,False
+pilot-666,1,"Drug discovery processes can be made faster, cheaper, and more accurate through automation and AI",False
+pilot-668,1,Users receive personalized content that enhances their engagement and conversion,False
+pilot-670,2,Healthcare can be improved by delivering real-time monitoring and alerts to caregivers.,False
+pilot-671,2,Users can experience real-time video streaming with low latency,False
+pilot-673,1,Clients can create impactful video content by leveraging their communities.,False
+pilot-674,1,Parents can manage their children's education more effectively through the app,False
+pilot-675,1,Indoor environments can have improved air quality through the use of the system.,False
+pilot-678,1,WaterO provides clean and affordable drinking water,False
+pilot-679,2,Children can be kept safe online while maintaining their privacy,False
+pilot-680,1,AI technology improves patient outcomes and doctor workflows.,False
+pilot-682,1,Consumers can make online purchases using Bitcoin and local currency through affordable installments.,False
+pilot-683,1,Businesses can drive more traffic and revenue through better visibility on Google,False
+pilot-684,1,Home security can be effectively managed against cyber threats.,False
+pilot-685,1,Enterprises can securely manage and search their source code,False
+pilot-686,1,Athletes can enhance their training and performance through neurostimulation,False
+pilot-688,2,Fans of stand-up comedy can access a wide range of content through a dedicated streaming platform,False
+pilot-689,1,Luminous provides enhanced safety and visibility for users through smart clothing,False
+pilot-692,1,Companies can build world-class teams by using data-driven hiring practices,False
+pilot-693,3,Fish farming can be made safer and more efficient with automated inspections,False
+pilot-694,1,Consumers can enjoy high-quality coffee conveniently at home.,False
+pilot-697,1,Wazer enables makers to create intricate designs with precision and efficiency.,False
+pilot-698,1,The platform aims to save lives by supporting individuals in recovery from addiction,False
+pilot-699,1,Enterprises can process large datasets quickly and efficiently using BlazingDB.,False
+pilot-7,1,Farmers can manage labor data accurately and efficiently.,False
+pilot-700,3,Customers receive truly personalized digital experiences through Brainify's technology.,False
+pilot-701,1,"Patients receive improved, streamlined healthcare through technology.",False
+pilot-702,2,Consumers can access convenient and understandable health testing from home,False
+pilot-703,1,Businesses can effectively manage and utilize custom currency to drive sales.,False
+pilot-704,1,Operational efficiency in warehouses is improved through automation.,False
+pilot-706,1,"Patients gain access to affordable, timely, and vetted medical care through MedRepublic.",False
+pilot-707,1,Rapid molecular diagnostics can help fight epidemics effectively.,False
+pilot-709,2,MyKey simplifies and secures access management for teams,False
+pilot-710,3,Product Board helps create products that people want,False
+pilot-711,3,"Pundit makes voice media engaging, interactive, and accessible for users",False
+pilot-712,1,Animal health management becomes more precise and effective through data integration,False
+pilot-713,1,"Lawn care becomes more reliable, eco-friendly, and affordable through robotic services.",False
+pilot-714,2,Sensei creates a community for human connection and support,False
+pilot-715,1,Users can create better presentations easily and collaboratively.,False
+pilot-716,1,Application security is simplified for developers,False
+pilot-717,1,"Navigation can be embedded seamlessly into existing applications, improving efficiency for businesses.",False
+pilot-718,2,Authentication becomes more secure and user-friendly through implicit authentication,False
+pilot-719,2,Users can achieve enhanced comfort and support in their footwear through custom insoles.,False
+pilot-721,1,Children receive fun and educational experiences through interactive toys,False
+pilot-724,2,Users can manage their digital lives more efficiently with a smart wall clock.,False
+pilot-727,1,Girls feel empowered to become engineers through technology designed for them,False
+pilot-728,1,Robotic arms become accessible and safe for a wide range of applications.,False
+pilot-733,1,Retailers and brands can collaborate effectively to improve in-store execution and sales,False
+pilot-735,1,Businesses can make better energy decisions and reduce costs through data analysis.,False
+pilot-737,2,The e-shower provides a sustainable solution for water and energy use.,False
+pilot-738,2,"Video creators can access affordable, unique, and royalty-free music for their content",False
+pilot-739,1,Companies can efficiently manage and communicate with a diverse group of contractors and vendors,False
+pilot-746,1,Professionals can save time and improve data organization in site investigations,False
+pilot-757,1,Customer service can be improved through AI and machine learning.,False
+pilot-760,3,Everyone can access safe drinking water easily and conveniently.,False
+pilot-761,1,Developers can save time and money while improving app quality,False
+pilot-762,1,Wireless power can become ubiquitous and provide continuous energy for devices,False
+pilot-764,3,Users can create and manage web content easily and intuitively.,False
+pilot-766,1,Consumers can effortlessly reclaim money from price drops,False
+pilot-769,1,Advertisers can achieve better targeting and user engagement through advanced content recognition technology,False
+pilot-771,1,Vimofit provides an easy way to track fitness workouts without friction.,False
+pilot-773,1,AgriList helps indoor farmers operate more efficiently and sustainably,False
+pilot-774,1,Businesses can improve customer interactions through a unified phone system and integrations.,False
+pilot-775,1,Art creation becomes more efficient and accessible through automation and AI,False
+pilot-778,1,Patients gain better control over their respiratory health through smart technology,False
+pilot-786,1,Growing cannabis becomes easier and more accessible for users.,False
+pilot-789,1,Girls can express themselves creatively through customized nail art,False
+pilot-790,1,Technology becomes accessible for everyone through RoboWonderkent,False
+pilot-801,1,Players can enjoy interactive gaming experiences that utilize real-world environments.,False
+pilot-802,1,Parents can manage sleep better and reduce conflict through individual notifications.,False
+pilot-805,2,Air conditioning becomes more efficient and environmentally friendly through smart technology,False
+pilot-806,3,Sentry helps protect what matters most to homeowners and renters.,False
+pilot-807,2,"Consumers can enjoy fresh, healthy meals with convenience and reduced food waste.",False
+pilot-808,1,Drones can be operated safely and effectively by less trained individuals,False
+pilot-810,2,Switchmate simplifies smart home automation for consumers,False
+pilot-811,1,Designers can prototype circuits quickly and affordably,False
+pilot-812,1,Enterprises can achieve instant manufacturing and improved efficiency,False
+pilot-815,1,Developers can build scalable backends easily with Crate.,False
+pilot-816,1,The RAM device can save lives by providing accessible and efficient malaria diagnostics.,False
+pilot-824,2,Healthcare providers can improve patient diagnosis and care in remote areas.,False
+pilot-828,3,VIRB provides a seamless and integrated experience for users when searching and sharing information.,False
+pilot-829,1,Retailers can achieve competitive pricing and improved profitability through dynamic price optimization.,False
+pilot-83,1,AI can improve early diagnosis and treatment of eye diseases.,False
+pilot-835,1,Businesses can improve their services and operations through programmable camera access,False
+pilot-836,1,"Consumers benefit from a smarter, more convenient public transit experience.",False
+pilot-838,1,Users can save water and energy while enjoying a reliable and luxurious water heating experience,False
+pilot-839,1,"Curbo helps children eat healthier, feel great, and lose weight.",False
+pilot-841,1,"Hearing enhancements become more accessible, affordable, and attractive for users",False
+pilot-842,1,Users gain access to a personalized and diverse range of makeup options,False
+pilot-844,1,Companies can improve their chances of raising capital through insights provided by the fundability score.,False
+pilot-848,2,"Identity verification can be fast, secure, and efficient for businesses and consumers",False
+pilot-849,1,Companies can provide effective mobile customer support through real-time communication,False
+pilot-852,1,"Consumers gain a powerful, portable PC solution that simplifies their hardware needs.",False
+pilot-853,1,Individuals can enjoy seamless management of their household chores.,False
+pilot-860,1,Users experience a delightful and seamless product search,False
+pilot-861,1,Individuals can better understand and control their health through advanced tracking technology.,False
+pilot-862,1,Anglers can find and book fishing trips easily and reliably,False
+pilot-866,1,MailTime provides a more efficient and secure way to manage emails on smartphones.,False
+pilot-868,2,"Data science becomes accessible to everyone, empowering companies to make data-driven decisions.",False
+pilot-87,2,Heavy industries can decarbonize affordably and reliably with electrified heat.,False
+pilot-872,1,SelfLender empowers users with tools for financial improvement and access to affordable financial products.,False
+pilot-873,1,Shipster enables efficient and cost-effective shipping for small businesses,False
+pilot-874,1,SOP Notify aims to improve communication about power availability for users in Africa,False
+pilot-876,3,"Students receive personalized, on-demand help and resources for their studies",False
+pilot-877,1,Restaurants can optimize their revenue and reduce food waste through dynamic pricing,False
+pilot-878,1,Small businesses can access high-quality branding services affordably,False
+pilot-880,2,Consumers and developers can enhance vehicle functionality and safety through Vinly,False
+pilot-881,2,Patients receive support for medication adherence through an easy-to-use smart pill bottle.,False
+pilot-889,3,Patients gain better control over their diabetes management through improved data accessibility and support,False
+pilot-891,1,Robots can be built more easily and affordably by a wider range of people,False
+pilot-892,1,The Owlet Vitals Monitor empowers parents by providing critical health information about their infants.,False
+pilot-893,1,Smart walkers can enhance safety and quality of life for seniors,False
+pilot-895,1,Users can effectively search for fashion items through images and personal styling,False
+pilot-900,1,Data on the web becomes easily accessible to everyone,False
+pilot-903,1,Lock8 provides enhanced security and rental opportunities for bicycles.,False
+pilot-909,1,VoiceFear enhances user interaction with apps through voice control.,False
+pilot-910,2,Consumers gain access to a diverse range of customizable 3D printed products,False
+pilot-911,1,Customers receive a personalized retail experience that enhances their shopping journey,False
+pilot-912,1,Non-technical users can easily create mobile apps without extensive programming knowledge.,False
+pilot-913,2,Enterprises can effectively utilize personal devices for work while maintaining security and user experience.,False
+pilot-914,1,Clients can manage HR processes more efficiently and at no cost.,False
+pilot-915,2,Customers get personal services on their terms while merchants monetize idle time.,False
+pilot-916,1,Docurated provides an effective way to manage and retrieve ideas visually.,False
+pilot-917,1,Users can receive timely support for open source software issues,False
+pilot-918,1,Consumers gain access to authentic dining experiences with locals,False
+pilot-919,1,Users can access and analyze public data more effectively.,False
+pilot-920,2,Real estate communication becomes more transparent and user-friendly through 3D visualization.,False
+pilot-922,1,Contract management becomes simpler and more efficient for organizations.,False
+pilot-923,1,Students can effectively showcase their innovative projects to colleges and employers,False
+pilot-924,2,Users can achieve better productivity and work-life balance through effective priority management.,False
+pilot-925,2,"Consumers can access convenient, personalized, and healthy meal options.",False
+pilot-926,1,The Keen Vent system provides energy savings and improved comfort for homeowners.,False
+pilot-927,1,Keezy provides a convenient and secure way to manage door access.,False
+pilot-928,2,,True
+pilot-929,1,Companies can hire the best students by building relationships with them.,False
+pilot-930,1,Users gain data continuity and control over their app data.,False
+pilot-932,1,Retrace enhances meeting productivity and organization for users,False
+pilot-933,1,Patients receive better treatment through shared doctor experiences.,False
+pilot-934,2,Shipping becomes easier and more efficient for retailers.,False
+pilot-935,1,Musicians can connect with fans and receive direct support through live streaming,False
+pilot-937,1,Companies can avoid environmental scandals and improve sustainability through better supply chain management,False
+pilot-938,1,Talks enhances communication by integrating text and voice seamlessly,False
+pilot-939,3,"E-commerce merchants can conduct transactions with verified customers, reducing fraud",False
+pilot-940,2,Children can develop important skills through engaging and personalized gaming experiences.,False
+pilot-941,2,Businesses can achieve better communication and functionality through an integrated telecommunications system.,False
+pilot-943,2,Zula enhances team communication and reduces reliance on email,False
+pilot-944,2,Athletes can achieve better performance through precise tracking and analysis.,False
+pilot-946,2,Men can shop for clothes more easily and with better fit through personalized assistance.,False
+pilot-948,1,Users can efficiently perform high-performance computing tasks in the cloud,False
+pilot-950,1,Drift enhances text input efficiency for tablet users,False
+pilot-953,1,Businesses can enhance customer engagement and retention through legal music integration.,False
+pilot-954,2,Video professionals can collaborate more efficiently and effectively using First Cut Pro,False
+pilot-956,1,"Homeowners can visualize furniture in their own space, enhancing the shopping experience",False
+pilot-958,1,Engineers can work more effectively and happily with the right software testing platform.,False
+pilot-961,2,Customer service becomes faster and more efficient through automated information exchange,False
+pilot-962,1,Tangible Play enhances social interaction through hybrid gaming experiences.,False
+pilot-963,1,Consumers can charge devices automatically and effortlessly.,False
+pilot-964,1,Government participation becomes more accessible and informed for citizens,False
+pilot-965,2,Immigrants can support their families' basic needs more easily and affordably,False
+pilot-968,1,Users experience a secure and enjoyable login process,False
+pilot-969,1,Individuals can take control of their brain health and improve their daily lives,False
+pilot-976,1,Bavaverse aims to revolutionize communication by enabling real-time translation across languages.,False
+pilot-979,2,Customers receive personalized rewards and experiences effortlessly,False
+pilot-98,1,"Flint's paper batteries provide a safer, more sustainable, and cost-effective alternative to traditional batteries.",False
+pilot-981,1,The product provides an innovative way to play guitar using compatible apps,False
+pilot-986,1,Curb Karma provides a solution to the parking problem by facilitating spot sharing.,False
+pilot-988,1,Users gain improved mobile internet access through shared connectivity.,False
+pilot-998,1,Users can easily identify and share information about brands.,False

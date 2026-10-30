@@ -1,0 +1,10 @@
+{
+  "gpt4omini": {
+    "premise_files": 1125,
+    "share_valid": 0.87
+  },
+  "qwen3_32b": {
+    "premise_files": 1125,
+    "share_valid": 0.2
+  }
+}

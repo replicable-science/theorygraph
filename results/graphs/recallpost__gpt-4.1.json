@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "case_id": "recallpost",
+    "model": "gpt-4.1",
+    "mode": "replay",
+    "extraction_run": 1,
+    "passes": {
+      "premises": {
+        "codebook_file": "v2_1_1_premises.public.md",
+        "codebook_version": "2.1.1",
+        "codebook_sha256": "3d9540169855edd480b1fa9008a7d860f4257704e782ea1424ac3aae69d75973",
+        "request_sha256": "36ce5b001cd13581b956a19bfa72b27f16c5afa38ee800de36b79fee81aa1619",
+        "reply_created_at": "2026-10-30T09:56:56+00:00"
+      },
+      "domains": {
+        "codebook_file": "v2_1_0_domains.public.md",
+        "codebook_version": "2.1.0",
+        "codebook_sha256": "e8b3d7b51879f042da61195ac75a0e4323b54473073fd63206d3994da3459839",
+        "request_sha256": "f3d9411ecc2b8373b3ca7d754d112648eac9c9237b4dd5fcdbf24348c3cb407d",
+        "reply_created_at": "2026-10-30T09:56:59+00:00"
+      },
+      "links_status": {
+        "codebook_file": "v3_0_0_links_status.md",
+        "codebook_version": "3.0.0",
+        "codebook_sha256": "6fa5952efb3b4e409ead074562c63d5e9af86c7203a20d3a80883f02506ce860",
+        "request_sha256": "7b9095392c184cd80770070296643a4b512bf341e51fcbd09fa13f5632237e7c",
+        "reply_created_at": "2026-10-30T09:57:02+00:00"
+      },
+      "challenge": {
+        "codebook_file": "v3_0_0_challenge.md",
+        "codebook_version": "3.0.0",
+        "codebook_sha256": "25553e543ca7940e5dc48fe3952b11e8f6b31cd1f94c90beb283a4a0fa9044fe",
+        "request_sha256": "0429e7890d013cd2c14c18b0c6eb5269a03b6a4a8cadec72c1e2962bce0e6c55",
+        "reply_created_at": "2026-10-30T09:57:04+00:00"
+      }
+    },
+    "validation_problems": [
+      "links_status: L1: self link",
+      "links_status: L2: self link"
+    ],
+    "dropped_links": [
+      {
+        "id": "L1",
+        "from": "P5",
+        "to": "P5",
+        "cue": "because",
+        "evidence_span": "Dental offices are a good first market because they are small, they pay quickly and they all have the same two software systems."
+      },
+      {
+        "id": "L2",
+        "from": "P7",
+        "to": "P7",
+        "cue": "so that",
+        "evidence_span": "We have a partnership in place with a regional dental association, and we will give their members a discount so that adoption is faster."
+      }
+    ],
+    "source_check": {
+      "total": 21,
+      "quoted": 21,
+      "verbatim": 20,
+      "near": 0,
+      "none": 1,
+      "no_quote": 0,
+      "by_kind": {
+        "premise": {
+          "verbatim": 7,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        },
+        "status_cue": {
+          "verbatim": 5,
+          "near": 0,
+          "none": 1,
+          "no_quote": 0
+        },
+        "question": {
+          "verbatim": 4,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        },
+        "answer": {
+          "verbatim": 4,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        }
+      },
+      "share_supported": 0.9523809523809523
+    }
+  },
+  "value": [
+    {
+      "id": "V1",
+      "text": "Dental clinics reduce no shows and increase revenue by filling empty appointment slots.",
+      "evidence_span": "no shows fell from fifteen percent to nine percent on average, which for a typical clinic is about fourteen thousand dollars a year."
+    }
+  ],
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Dental clinics lose a significant portion of appointments to no shows, resulting in substantial revenue loss.",
+      "explicitness": "explicit",
+      "evidence_span": "A typical dental clinic loses about fifteen percent of its appointments to no shows, and each empty chair costs about two hundred dollars an hour.",
+      "status": "evidence_cited",
+      "status_span": "A typical dental clinic loses about fifteen percent of its appointments to no shows, and each empty chair costs about two hundred dollars an hour.",
+      "status_reason": "Specific numbers given for no shows and cost",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P2",
+      "text": "A text message system that confirms appointments and offers canceled slots to a waiting list within minutes can reduce no shows.",
+      "explicitness": "explicit",
+      "evidence_span": "We built Recallpost, a text message system that confirms appointments and offers canceled slots to a waiting list within minutes.",
+      "status": "evidence_cited",
+      "status_span": "We built Recallpost, a text message system that confirms appointments and offers canceled slots to a waiting list within minutes. ... We ran it at nine clinics in Ohio for four months and no shows fell from fifteen percent to nine percent on average",
+      "status_reason": "Own test with numbers showing reduction in no shows",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "none",
+        "similarity": 0.531
+      }
+    },
+    {
+      "id": "P3",
+      "text": "An overbooking engine that learns which patients tend to cancel and double books carefully can further reduce no shows.",
+      "explicitness": "explicit",
+      "evidence_span": "We also have an overbooking engine that learns which patients tend to cancel and double books carefully.",
+      "status": "speculative",
+      "status_span": "I believe this will cut no shows in half.",
+      "status_reason": "Marked with 'I believe'",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P4",
+      "text": "Integration with the two largest practice management systems enables rapid onboarding for clinics.",
+      "explicitness": "explicit",
+      "evidence_span": "Right now the product integrates with the two largest practice management systems, and a clinic can be live in a day.",
+      "status": "evidence_cited",
+      "status_span": "Right now the product integrates with the two largest practice management systems, and a clinic can be live in a day.",
+      "status_reason": "States current integration and onboarding speed",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P5",
+      "text": "Dental offices are a good initial market because they are small, pay quickly, and use the same two software systems.",
+      "explicitness": "explicit",
+      "evidence_span": "Dental offices are a good first market because they are small, they pay quickly and they all have the same two software systems.",
+      "status": "evidence_cited",
+      "status_span": "Dental offices are a good first market because they are small, they pay quickly and they all have the same two software systems.",
+      "status_reason": "Gives reasons for market suitability",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P6",
+      "text": "Physical therapy and veterinary clinics have the same no show problem as dental clinics.",
+      "explicitness": "explicit",
+      "evidence_span": "Once we are in dental, we want to move to physical therapy and veterinary clinics, which have the same problem.",
+      "status": "asserted",
+      "status_span": "",
+      "status_reason": "Stated as fact, no source",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P7",
+      "text": "A partnership with a regional dental association and offering discounts to its members will accelerate adoption.",
+      "explicitness": "explicit",
+      "evidence_span": "We have a partnership in place with a regional dental association, and we will give their members a discount so that adoption is faster.",
+      "status": "evidence_cited",
+      "status_span": "We have a partnership in place with a regional dental association, and we will give their members a discount so that adoption is faster.",
+      "status_reason": "States partnership and planned discount",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    }
+  ],
+  "domains": [
+    {
+      "id": "D1",
+      "name": "No show problem and solution for dental clinics",
+      "premise_ids": [
+        "P1",
+        "P2",
+        "P3"
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "Practice management system integration and onboarding",
+      "premise_ids": [
+        "P4"
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "Dental offices as initial market",
+      "premise_ids": [
+        "P5"
+      ]
+    },
+    {
+      "id": "D4",
+      "name": "Expansion to physical therapy and veterinary clinics",
+      "premise_ids": [
+        "P6"
+      ]
+    },
+    {
+      "id": "D5",
+      "name": "Dental association partnership and member discounts",
+      "premise_ids": [
+        "P7"
+      ]
+    }
+  ],
+  "links": [],
+  "challenge": {
+    "exchanges": [
+      {
+        "id": "Q1",
+        "targets": [],
+        "new_condition": "pilot lacked a control group",
+        "question_span": "Your pilot at nine clinics, did you have a control group?",
+        "answer_span": "No, we compared to the same clinics' earlier months.",
+        "response": "defends",
+        "question_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        },
+        "answer_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        }
+      },
+      {
+        "id": "Q2",
+        "targets": [],
+        "new_condition": "other factors could explain results",
+        "question_span": "So other things could have changed?",
+        "answer_span": "Yes, that is true, though we saw the drop within two weeks of turning it on.",
+        "response": "qualifies",
+        "question_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        },
+        "answer_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        }
+      },
+      {
+        "id": "Q3",
+        "targets": [
+          "P3"
+        ],
+        "new_condition": "",
+        "question_span": "How do you stop the overbooking engine from creating angry patients sitting in a waiting room?",
+        "answer_span": "We cap it at one overbooked slot per day per clinic, and so far we have had two complaints.",
+        "response": "defends",
+        "question_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        },
+        "answer_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        }
+      },
+      {
+        "id": "Q4",
+        "targets": [],
+        "new_condition": "practice management companies could build texting",
+        "question_span": "And what stops the practice management companies from just building texting themselves?",
+        "answer_span": "Nothing really, they could. Our bet is that they will not because it is a small feature for them.",
+        "response": "concedes",
+        "question_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        },
+        "answer_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+# never commit: raw third-party text, local secrets, caches
+.env
+*.env
+results/restricted/
+data/transcripts_rebuilt/
+data/transcripts/
+**/transcripts/
+**/transcripts_qa/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/

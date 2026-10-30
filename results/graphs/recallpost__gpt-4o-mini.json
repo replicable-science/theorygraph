@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "case_id": "recallpost",
+    "model": "gpt-4o-mini",
+    "mode": "replay",
+    "extraction_run": 1,
+    "passes": {
+      "premises": {
+        "codebook_file": "v2_1_1_premises.public.md",
+        "codebook_version": "2.1.1",
+        "codebook_sha256": "3d9540169855edd480b1fa9008a7d860f4257704e782ea1424ac3aae69d75973",
+        "request_sha256": "fdd6445ceff9d21a151a6aec1423c99fa65c964b8f495dbd67cc838cc5ac9a2a",
+        "reply_created_at": "2026-10-30T09:56:13+00:00"
+      },
+      "domains": {
+        "codebook_file": "v2_1_0_domains.public.md",
+        "codebook_version": "2.1.0",
+        "codebook_sha256": "e8b3d7b51879f042da61195ac75a0e4323b54473073fd63206d3994da3459839",
+        "request_sha256": "eb3d85fce01d8c29ff3fddd9ff5a94ac2799068cab31ce0427993ce4011249a4",
+        "reply_created_at": "2026-10-30T09:56:17+00:00"
+      },
+      "links_status": {
+        "codebook_file": "v3_0_0_links_status.md",
+        "codebook_version": "3.0.0",
+        "codebook_sha256": "6fa5952efb3b4e409ead074562c63d5e9af86c7203a20d3a80883f02506ce860",
+        "request_sha256": "9f28d8ec3c6f829512e50bf61fc960de18e5da4698bc1a95af17dddb603088b0",
+        "reply_created_at": "2026-10-30T09:56:26+00:00"
+      },
+      "challenge": {
+        "codebook_file": "v3_0_0_challenge.md",
+        "codebook_version": "3.0.0",
+        "codebook_sha256": "25553e543ca7940e5dc48fe3952b11e8f6b31cd1f94c90beb283a4a0fa9044fe",
+        "request_sha256": "bbaf4bd3dc82adcfef2e16347d67acf7bdb0f4c8ee9292d4a152ee123fad874f",
+        "reply_created_at": "2026-10-30T09:56:29+00:00"
+      }
+    },
+    "validation_problems": [],
+    "dropped_links": [],
+    "source_check": {
+      "total": 24,
+      "quoted": 24,
+      "verbatim": 21,
+      "near": 0,
+      "none": 3,
+      "no_quote": 0,
+      "by_kind": {
+        "premise": {
+          "verbatim": 14,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        },
+        "status_cue": {
+          "verbatim": 5,
+          "near": 0,
+          "none": 2,
+          "no_quote": 0
+        },
+        "link": {
+          "verbatim": 0,
+          "near": 0,
+          "none": 1,
+          "no_quote": 0
+        },
+        "question": {
+          "verbatim": 1,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        },
+        "answer": {
+          "verbatim": 1,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        }
+      },
+      "share_supported": 0.875
+    }
+  },
+  "value": [
+    {
+      "id": "V1",
+      "text": "Dental clinics can reduce no shows and increase revenue through Recallpost",
+      "evidence_span": "which for a typical clinic is about fourteen thousand dollars a year."
+    }
+  ],
+  "premises": [
+    {
+      "id": "P1",
+      "text": "A typical dental clinic loses about fifteen percent of its appointments to no shows, and each empty chair costs about two hundred dollars an hour",
+      "explicitness": "explicit",
+      "evidence_span": "A typical dental clinic loses about fifteen percent of its appointments to no shows, and each empty chair costs about two hundred dollars an hour.",
+      "status": "asserted",
+      "status_span": "",
+      "status_reason": "Stated as fact, no source",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P2",
+      "text": "Recallpost is a text message system that confirms appointments and offers canceled slots to a waiting list within minutes",
+      "explicitness": "explicit",
+      "evidence_span": "We built Recallpost, a text message system that confirms appointments and offers canceled slots to a waiting list within minutes.",
+      "status": "asserted",
+      "status_span": "",
+      "status_reason": "Stated as fact, no source",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P3",
+      "text": "Recallpost has an overbooking engine that learns which patients tend to cancel and double books carefully",
+      "explicitness": "explicit",
+      "evidence_span": "We also have an overbooking engine that learns which patients tend to cancel and double books carefully.",
+      "status": "asserted",
+      "status_span": "",
+      "status_reason": "Stated as fact, no source",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P4",
+      "text": "Recallpost can cut no shows in half",
+      "explicitness": "explicit",
+      "evidence_span": "I believe this will cut no shows in half.",
+      "status": "speculative",
+      "status_span": "I believe this will cut no shows in half",
+      "status_reason": "Marked with 'I believe'",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P5",
+      "text": "Recallpost can predict which patients are about to leave a clinic",
+      "explicitness": "explicit",
+      "evidence_span": "We might also be able to predict which patients are about to leave a clinic.",
+      "status": "speculative",
+      "status_span": "We might also be able to predict which patients are about to leave a clinic",
+      "status_reason": "Marked with 'We might'",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P6",
+      "text": "Recallpost integrates with the two largest practice management systems",
+      "explicitness": "explicit",
+      "evidence_span": "Right now the product integrates with the two largest practice management systems.",
+      "status": "asserted",
+      "status_span": "",
+      "status_reason": "Stated as fact, no source",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P7",
+      "text": "A clinic can be live with Recallpost in a day",
+      "explicitness": "explicit",
+      "evidence_span": "a clinic can be live in a day.",
+      "status": "expected",
+      "status_span": "a clinic can be live in a day",
+      "status_reason": "Plan, no marker of doubt",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P8",
+      "text": "Recallpost charges three hundred dollars a month per clinic",
+      "explicitness": "explicit",
+      "evidence_span": "We charge three hundred dollars a month per clinic.",
+      "status": "asserted",
+      "status_span": "",
+      "status_reason": "Stated as fact, no source",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P9",
+      "text": "No shows fell from fifteen percent to nine percent on average at nine clinics in Ohio",
+      "explicitness": "explicit",
+      "evidence_span": "We ran it at nine clinics in Ohio for four months and no shows fell from fifteen percent to nine percent on average.",
+      "status": "evidence_cited",
+      "status_span": "no shows fell from fifteen percent to nine percent on average at nine clinics in Ohio",
+      "status_reason": "Own test with numbers",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "none",
+        "similarity": 0.809
+      }
+    },
+    {
+      "id": "P10",
+      "text": "Dental offices are a good first market because they are small, they pay quickly and they all have the same two software systems",
+      "explicitness": "explicit",
+      "evidence_span": "Dental offices are a good first market because they are small, they pay quickly and they all have the same two software systems.",
+      "status": "asserted",
+      "status_span": "",
+      "status_reason": "Stated as fact, no source",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P11",
+      "text": "Recallpost wants to move to physical therapy and veterinary clinics after dental clinics",
+      "explicitness": "explicit",
+      "evidence_span": "Once we are in dental, we want to move to physical therapy and veterinary clinics, which have the same problem.",
+      "status": "expected",
+      "status_span": "we want to move to physical therapy and veterinary clinics after dental clinics",
+      "status_reason": "Plan, no marker of doubt",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "none",
+        "similarity": 0.803
+      }
+    },
+    {
+      "id": "P12",
+      "text": "Recallpost has a partnership in place with a regional dental association",
+      "explicitness": "explicit",
+      "evidence_span": "We have a partnership in place with a regional dental association.",
+      "status": "asserted",
+      "status_span": "",
+      "status_reason": "Stated as fact, no source",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P13",
+      "text": "Recallpost will give members of the dental association a discount to speed up adoption",
+      "explicitness": "explicit",
+      "evidence_span": "we will give their members a discount so that adoption is faster.",
+      "status": "expected",
+      "status_span": "we will give their members a discount so that adoption is faster",
+      "status_reason": "Plan, no marker of doubt",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P14",
+      "text": "Recallpost hopes to reach five hundred clinics by the end of next year",
+      "explicitness": "explicit",
+      "evidence_span": "We hope to reach five hundred clinics by the end of next year.",
+      "status": "expected",
+      "status_span": "We hope to reach five hundred clinics by the end of next year",
+      "status_reason": "Plan, no marker of doubt",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    }
+  ],
+  "domains": [
+    {
+      "id": "D1",
+      "name": "No-show problem and solution",
+      "premise_ids": [
+        "P1",
+        "P2",
+        "P4",
+        "P9"
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "Overbooking and prediction capabilities",
+      "premise_ids": [
+        "P3",
+        "P5"
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "Integration and implementation",
+      "premise_ids": [
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "id": "D4",
+      "name": "Market strategy and pricing",
+      "premise_ids": [
+        "P8",
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "id": "L1",
+      "from": "P9",
+      "to": "V1",
+      "cue": "which for a typical clinic is",
+      "evidence_span": "no shows fell from fifteen percent to nine percent on average at nine clinics in Ohio, which for a typical clinic is about fourteen thousand dollars a year",
+      "evidence_span_check": {
+        "outcome": "none",
+        "similarity": 0.841
+      }
+    }
+  ],
+  "challenge": {
+    "exchanges": [
+      {
+        "id": "Q1",
+        "targets": [],
+        "new_condition": "what stops practice management companies from building texting",
+        "question_span": "And what stops the practice management companies from just building texting themselves?",
+        "answer_span": "Nothing really, they could. Our bet is that they will not because it is a small feature for them.",
+        "response": "defends",
+        "question_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        },
+        "answer_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        }
+      }
+    ]
+  }
+}

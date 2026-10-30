@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "theory_graph.schema.json",
+  "title": "Theory graph of one pitch",
+  "description": "What a speaker treats as necessary for a venture to create value (premises), which would be revised together (domains), which depends on which (links), how each is supported (status), and which premises the question-and-answer session tested (challenge). Every free-text claim carries a passage that is checked against the transcript.",
+  "type": "object",
+  "required": ["meta", "premises"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["case_id", "model", "passes", "validation_problems", "source_check"],
+      "properties": {
+        "case_id": {"type": "string"},
+        "model": {"type": "string"},
+        "mode": {"enum": ["live", "replay"]},
+        "extraction_run": {"type": "integer"},
+        "passes": {"type": "object", "description": "per pass: codebook file, version, SHA-256 of the prompt, SHA-256 of the request"},
+        "validation_problems": {"type": "array", "items": {"type": "string"}},
+        "dropped_links": {"type": "array", "description": "links the validator removed (self links, unknown endpoints), kept for audit"},
+        "source_check": {"type": "object", "description": "counts of passages found verbatim / near / not found / not given, by kind"}
+      }
+    },
+    "value": {
+      "type": "array", "maxItems": 1,
+      "items": {"type": "object", "required": ["id", "text"], "properties": {"id": {"const": "V1"}, "text": {"type": "string"}, "evidence_span": {"type": "string"}}}
+    },
+    "premises": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "required": ["id", "text", "evidence_span"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^P[0-9]+$"},
+          "text": {"type": "string", "description": "one declarative sentence in the speaker's terms"},
+          "explicitness": {"enum": ["explicit", "inferred"]},
+          "evidence_span": {"type": "string", "description": "contiguous passage of the transcript"},
+          "evidence_span_check": {"$ref": "#/$defs/check"},
+          "status": {"enum": ["evidence_cited", "speculative", "expected", "asserted"]},
+          "status_span": {"type": "string", "description": "passage that shows the status; empty for asserted"},
+          "status_span_check": {"$ref": "#/$defs/check"},
+          "status_reason": {"type": "string", "maxLength": 120}
+        }
+      }
+    },
+    "domains": {
+      "type": "array",
+      "description": "each premise belongs to exactly one domain; a domain is a set of premises that would be revised together",
+      "items": {"type": "object", "required": ["id", "name", "premise_ids"], "properties": {"id": {"type": "string"}, "name": {"type": "string"}, "premise_ids": {"type": "array", "items": {"type": "string"}}}}
+    },
+    "links": {
+      "type": "array",
+      "description": "dependences the speaker states in so many words; empty is valid",
+      "items": {"type": "object", "required": ["id", "from", "to", "evidence_span"],
+                "properties": {"id": {"type": "string"}, "from": {"type": "string"}, "to": {"type": "string"}, "cue": {"type": "string"},
+                               "evidence_span": {"type": "string"}, "evidence_span_check": {"$ref": "#/$defs/check"}}}
+    },
+    "challenge": {
+      "type": "object",
+      "properties": {"exchanges": {"type": "array", "items": {
+        "type": "object", "required": ["id", "targets", "question_span", "response"],
+        "properties": {"id": {"type": "string"}, "targets": {"type": "array", "items": {"type": "string"}},
+                       "new_condition": {"type": "string", "description": "a condition the question tests that is not in the premise list"},
+                       "question_span": {"type": "string"}, "answer_span": {"type": "string"},
+                       "response": {"enum": ["defends", "qualifies", "concedes", "deflects", "no_answer"]}}}}}
+    }
+  },
+  "$defs": {"check": {"type": "object", "properties": {"outcome": {"enum": ["verbatim", "near", "none", "no_quote"]}, "similarity": {"type": "number"}}}}
+}

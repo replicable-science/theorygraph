@@ -1,0 +1,74 @@
+{
+  "premises_gpt4omini": {
+    "codebook_version": "2.1.1",
+    "model_id": "openai/gpt-4o-mini",
+    "model_provider": "openai",
+    "temperature": 0.0,
+    "source_file": null,
+    "runs": 3,
+    "first_extracted_at": "2026-08-08T19:08:36.440080+00:00"
+  },
+  "premises_grok47": {
+    "codebook_version": "2.1.1",
+    "model_id": "grok-4.7",
+    "model_provider": "xai",
+    "temperature": null,
+    "source_file": null,
+    "runs": 3,
+    "first_extracted_at": "2026-10-23T14:05:00+00:00"
+  },
+  "premises_claude_catalogue": {
+    "codebook_version": "torben_claude_v1",
+    "model_id": "claude",
+    "model_provider": "anthropic",
+    "temperature": null,
+    "source_file": "Claude_Theory of value classification_Battlefield.xlsx",
+    "runs": 1,
+    "first_extracted_at": null
+  },
+  "grouping_within_gpt4omini": {
+    "codebook_version": "2.1.0",
+    "model_id": "openai/gpt-4o-mini",
+    "model_provider": "openai",
+    "temperature": 0.0,
+    "source_file": null,
+    "runs": 3,
+    "first_extracted_at": "2026-08-09T20:13:46.449337+00:00"
+  },
+  "grouping_fu_grok47": {
+    "codebook_version": "1.0.0",
+    "model_id": "grok-4.7",
+    "model_provider": "xai",
+    "temperature": null,
+    "source_file": null,
+    "runs": 3,
+    "first_extracted_at": "2026-10-21T14:10:00+00:00"
+  },
+  "grouping_fu_gemini": {
+    "codebook_version": "1.0.0",
+    "model_id": "gemini",
+    "model_provider": "google",
+    "temperature": null,
+    "source_file": "TBV_Premise_Classification_Gemini.xlsx",
+    "runs": 1,
+    "first_extracted_at": "2026-10-21T15:29:00+00:00"
+  },
+  "grouping_dfv_gpt4omini": {
+    "codebook_version": "2.1.0",
+    "model_id": "openai/gpt-4o-mini",
+    "model_provider": "openai",
+    "temperature": 0.0,
+    "source_file": null,
+    "runs": 3,
+    "first_extracted_at": "2026-08-08T22:14:58.855615+00:00"
+  },
+  "grouping_sb_claude": {
+    "codebook_version": "torben_claude_v1",
+    "model_id": "claude",
+    "model_provider": "anthropic",
+    "temperature": null,
+    "source_file": "Claude_Theory of value classification_Battlefield.xlsx",
+    "runs": 1,
+    "first_extracted_at": null
+  }
+}

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Theory Graph: an auditable pipeline and agreement audit for AI-extracted value theories"
+type: software
+version: 0.1.0
+date-released: 2026-10-30
+license: MIT
+authors:
+  - name: "withheld for blind review"
+repository-code: "https://github.com/replicable-science/theorygraph"
+abstract: >-
+  Pipeline, prompts, source check and cross-model agreement audit for language-model readings of the theory behind
+  startup pitches. Prototype accompanying a Stage 1 submission to the Organization Science special issue
+  "AI-Assisted Frontiers in Organizational Science".
+keywords:
+  - entrepreneurship
+  - measurement
+  - large language models
+  - reliability

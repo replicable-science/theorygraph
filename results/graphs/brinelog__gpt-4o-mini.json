@@ -1,0 +1,430 @@
+{
+  "meta": {
+    "case_id": "brinelog",
+    "model": "gpt-4o-mini",
+    "mode": "replay",
+    "extraction_run": 1,
+    "passes": {
+      "premises": {
+        "codebook_file": "v2_1_1_premises.public.md",
+        "codebook_version": "2.1.1",
+        "codebook_sha256": "3d9540169855edd480b1fa9008a7d860f4257704e782ea1424ac3aae69d75973",
+        "request_sha256": "22b821a6643536729c2b5ed36ad3c8716ee855247ccf5395e4229d021513e294",
+        "reply_created_at": "2026-10-30T09:55:21+00:00"
+      },
+      "domains": {
+        "codebook_file": "v2_1_0_domains.public.md",
+        "codebook_version": "2.1.0",
+        "codebook_sha256": "e8b3d7b51879f042da61195ac75a0e4323b54473073fd63206d3994da3459839",
+        "request_sha256": "6490f4bae69e677072c7c5c6a07c809709151d8aff880e2839bcf688e3fcb5a2",
+        "reply_created_at": "2026-10-30T09:55:26+00:00"
+      },
+      "links_status": {
+        "codebook_file": "v3_0_0_links_status.md",
+        "codebook_version": "3.0.0",
+        "codebook_sha256": "6fa5952efb3b4e409ead074562c63d5e9af86c7203a20d3a80883f02506ce860",
+        "request_sha256": "46babbef96f389fb44a5aa572428440c9beb24050f86482ac8ec08e695c764d3",
+        "reply_created_at": "2026-10-30T09:55:35+00:00"
+      },
+      "challenge": {
+        "codebook_file": "v3_0_0_challenge.md",
+        "codebook_version": "3.0.0",
+        "codebook_sha256": "25553e543ca7940e5dc48fe3952b11e8f6b31cd1f94c90beb283a4a0fa9044fe",
+        "request_sha256": "c4bfd2e79dbb5ff27fa3798c2fbaf36a85f3826b5e7b788e9729a5f9aee92f4c",
+        "reply_created_at": "2026-10-30T09:55:40+00:00"
+      }
+    },
+    "validation_problems": [],
+    "dropped_links": [],
+    "source_check": {
+      "total": 30,
+      "quoted": 30,
+      "verbatim": 28,
+      "near": 1,
+      "none": 1,
+      "no_quote": 0,
+      "by_kind": {
+        "premise": {
+          "verbatim": 13,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        },
+        "status_cue": {
+          "verbatim": 6,
+          "near": 1,
+          "none": 1,
+          "no_quote": 0
+        },
+        "link": {
+          "verbatim": 1,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        },
+        "question": {
+          "verbatim": 4,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        },
+        "answer": {
+          "verbatim": 4,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        }
+      },
+      "share_supported": 0.9666666666666667
+    }
+  },
+  "value": [
+    {
+      "id": "V1",
+      "text": "Oyster farmers can prevent losses and save income through timely alerts",
+      "evidence_span": "Oyster farmers lose a whole season of income when the water turns on them"
+    }
+  ],
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Oyster farmers lose a whole season of income when the water turns on them",
+      "explicitness": "explicit",
+      "evidence_span": "Oyster farmers lose a whole season of income when the water turns on them",
+      "status": "asserted",
+      "status_span": "",
+      "status_reason": "Stated as fact, no source",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P2",
+      "text": "Most oyster farmers find out after the oysters are already dead",
+      "explicitness": "explicit",
+      "evidence_span": "most of them find out after the oysters are already dead",
+      "status": "asserted",
+      "status_span": "",
+      "status_reason": "Stated as fact, no source",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P3",
+      "text": "Brinelog is a floating sensor that measures oxygen, salinity and temperature every minute",
+      "explicitness": "explicit",
+      "evidence_span": "Brinelog is a floating sensor the size of a coffee can that measures oxygen, salinity and temperature every minute",
+      "status": "evidence_cited",
+      "status_span": "Brinelog is a floating sensor that measures oxygen, salinity and temperature every minute",
+      "status_reason": "Describes product with specific details",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "none",
+        "similarity": 0.795
+      }
+    },
+    {
+      "id": "P4",
+      "text": "The sensor texts the farmer when a reading crosses a danger line",
+      "explicitness": "explicit",
+      "evidence_span": "and texts the farmer when a reading crosses a danger line",
+      "status": "evidence_cited",
+      "status_span": "the sensor texts the farmer when a reading crosses a danger line",
+      "status_reason": "Describes product functionality",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "near",
+        "similarity": 0.906
+      }
+    },
+    {
+      "id": "P5",
+      "text": "The sensor runs on a small solar panel, so a farmer never has to service it",
+      "explicitness": "explicit",
+      "evidence_span": "The sensor runs on a small solar panel, so a farmer never has to service it",
+      "status": "evidence_cited",
+      "status_span": "The sensor runs on a small solar panel, so a farmer never has to service it",
+      "status_reason": "Describes product functionality",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P6",
+      "text": "The alerts come on average two hours and ten minutes before the first oyster losses",
+      "explicitness": "explicit",
+      "evidence_span": "Our alerts came on average two hours and ten minutes before the first oyster losses",
+      "status": "evidence_cited",
+      "status_span": "Our alerts came on average two hours and ten minutes before the first oyster losses",
+      "status_reason": "Own test with numbers",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P7",
+      "text": "Losses were cut by about sixty percent on the farms that acted on the alerts",
+      "explicitness": "explicit",
+      "evidence_span": "and on the three farms that acted on them, losses were cut by about sixty percent",
+      "status": "evidence_cited",
+      "status_span": "on the three farms that acted on them, losses were cut by about sixty percent",
+      "status_reason": "Own test with numbers",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P8",
+      "text": "Insurers care about the sensor's alerts",
+      "explicitness": "explicit",
+      "evidence_span": "Insurers care about this",
+      "status": "asserted",
+      "status_span": "",
+      "status_reason": "Stated as fact, no source",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P9",
+      "text": "A marine insurer would discount premiums by up to ten percent for farms that use Brinelog",
+      "explicitness": "explicit",
+      "evidence_span": "we have a letter of intent from a marine insurer that would discount premiums by up to ten percent for farms that use Brinelog",
+      "status": "evidence_cited",
+      "status_span": "We have a letter of intent from a marine insurer that would discount premiums by up to ten percent for farms that use Brinelog",
+      "status_reason": "Named outside source",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P10",
+      "text": "The subscription price of forty dollars a month can be offset by the insurance discount",
+      "explicitness": "explicit",
+      "evidence_span": "which we think could pay for the subscription twice over",
+      "status": "speculative",
+      "status_span": "which we think could pay for the subscription twice over",
+      "status_reason": "Marked with 'we think'",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P11",
+      "text": "Selling through state aquaculture extension offices is a trusted channel for farmers",
+      "explicitness": "explicit",
+      "evidence_span": "Our plan is to sell through the state aquaculture extension offices, because every oyster farmer in the country already trusts and calls them",
+      "status": "expected",
+      "status_span": "Our plan is to sell through the state aquaculture extension offices",
+      "status_reason": "Plan, no marker of doubt",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P12",
+      "text": "There are about four thousand shellfish farms in the United States",
+      "explicitness": "explicit",
+      "evidence_span": "There are about four thousand shellfish farms in the United States",
+      "status": "asserted",
+      "status_span": "",
+      "status_reason": "Stated as fact, no source",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P13",
+      "text": "The team has built marine sensors for ten years",
+      "explicitness": "explicit",
+      "evidence_span": "our team has built marine sensors for ten years",
+      "status": "asserted",
+      "status_span": "",
+      "status_reason": "Stated as fact, no source",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    }
+  ],
+  "domains": [
+    {
+      "id": "D1",
+      "name": "Oyster farmer income loss",
+      "premise_ids": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "Brinelog sensor functionality",
+      "premise_ids": [
+        "P3",
+        "P4",
+        "P5"
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "Alert effectiveness",
+      "premise_ids": [
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "id": "D4",
+      "name": "Insurance benefits",
+      "premise_ids": [
+        "P8",
+        "P9",
+        "P10"
+      ]
+    },
+    {
+      "id": "D5",
+      "name": "Sales strategy",
+      "premise_ids": [
+        "P11",
+        "P12"
+      ]
+    },
+    {
+      "id": "D6",
+      "name": "Team experience",
+      "premise_ids": [
+        "P13"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "id": "L1",
+      "from": "P11",
+      "to": "P12",
+      "cue": "because",
+      "evidence_span": "because every oyster farmer in the country already trusts and calls them",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    }
+  ],
+  "challenge": {
+    "exchanges": [
+      {
+        "id": "Q1",
+        "targets": [
+          "P6",
+          "P7"
+        ],
+        "new_condition": "",
+        "question_span": "How do you know the alerts are what saved the oysters and not the farmers just being careful that season?",
+        "answer_span": "We compared the three farms that acted against the three that did not, and the gap is the sixty percent. It is a small sample and I would not claim more.",
+        "response": "defends",
+        "question_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        },
+        "answer_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        }
+      },
+      {
+        "id": "Q2",
+        "targets": [
+          "P8"
+        ],
+        "new_condition": "",
+        "question_span": "Why would an insurer give a discount based on a sensor that sends a text?",
+        "answer_span": "The letter of intent is conditional on a second season of data, so honestly that part is not yet real.",
+        "response": "concedes",
+        "question_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        },
+        "answer_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        }
+      },
+      {
+        "id": "Q3",
+        "targets": [
+          "P11"
+        ],
+        "new_condition": "",
+        "question_span": "why would they recommend a paid product from a startup?",
+        "answer_span": "We have two offices who already have us on their recommended list, in Maine and in Nova Scotia, and they asked us to run a workshop.",
+        "response": "defends",
+        "question_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        },
+        "answer_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        }
+      },
+      {
+        "id": "Q4",
+        "targets": [],
+        "new_condition": "what stops a big sensor company from copying you",
+        "question_span": "What stops a big sensor company from copying you in a year?",
+        "answer_span": "the oxygen drift problem is hard in salt water, and we have a calibration method that we filed a patent on in March.",
+        "response": "defends",
+        "question_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        },
+        "answer_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        }
+      }
+    ]
+  }
+}

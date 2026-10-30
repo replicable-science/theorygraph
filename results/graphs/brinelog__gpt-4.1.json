@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "case_id": "brinelog",
+    "model": "gpt-4.1",
+    "mode": "replay",
+    "extraction_run": 1,
+    "passes": {
+      "premises": {
+        "codebook_file": "v2_1_1_premises.public.md",
+        "codebook_version": "2.1.1",
+        "codebook_sha256": "3d9540169855edd480b1fa9008a7d860f4257704e782ea1424ac3aae69d75973",
+        "request_sha256": "a9626b3dc6118ab9e706b9d9ced5f5680783c9271cd302096852e07edc0f573a",
+        "reply_created_at": "2026-10-30T09:56:33+00:00"
+      },
+      "domains": {
+        "codebook_file": "v2_1_0_domains.public.md",
+        "codebook_version": "2.1.0",
+        "codebook_sha256": "e8b3d7b51879f042da61195ac75a0e4323b54473073fd63206d3994da3459839",
+        "request_sha256": "4e4410edb3b9f97f52164efb5257882970b29d4b4ee1deb57929b4bda21cf700",
+        "reply_created_at": "2026-10-30T09:56:36+00:00"
+      },
+      "links_status": {
+        "codebook_file": "v3_0_0_links_status.md",
+        "codebook_version": "3.0.0",
+        "codebook_sha256": "6fa5952efb3b4e409ead074562c63d5e9af86c7203a20d3a80883f02506ce860",
+        "request_sha256": "cabf076b69310858a36a1f376730bb87c22def1472fc872554105cb196d83b67",
+        "reply_created_at": "2026-10-30T09:56:39+00:00"
+      },
+      "challenge": {
+        "codebook_file": "v3_0_0_challenge.md",
+        "codebook_version": "3.0.0",
+        "codebook_sha256": "25553e543ca7940e5dc48fe3952b11e8f6b31cd1f94c90beb283a4a0fa9044fe",
+        "request_sha256": "a8892b6a4af6999b8257c55332f71516f8dbd531490614664554540cd7c65663",
+        "reply_created_at": "2026-10-30T09:56:42+00:00"
+      }
+    },
+    "validation_problems": [
+      "links_status: L1: self link"
+    ],
+    "dropped_links": [
+      {
+        "id": "L1",
+        "from": "P6",
+        "to": "P6",
+        "cue": "because",
+        "evidence_span": "Our plan is to sell through the state aquaculture extension offices, because every oyster farmer in the country already trusts and calls them."
+      }
+    ],
+    "source_check": {
+      "total": 20,
+      "quoted": 20,
+      "verbatim": 20,
+      "near": 0,
+      "none": 0,
+      "no_quote": 0,
+      "by_kind": {
+        "premise": {
+          "verbatim": 7,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        },
+        "status_cue": {
+          "verbatim": 5,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        },
+        "question": {
+          "verbatim": 4,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        },
+        "answer": {
+          "verbatim": 4,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        }
+      },
+      "share_supported": 1.0
+    }
+  },
+  "value": [
+    {
+      "id": "V1",
+      "text": "Oyster farmers prevent catastrophic losses and improve farm profitability through timely water quality alerts",
+      "evidence_span": "Oyster farmers lose a whole season of income when the water turns on them, and most of them find out after the oysters are already dead. ... Our alerts came on average two hours and ten minutes before the first oyster losses, and on the three farms that acted on them, losses were cut by about sixty percent."
+    }
+  ],
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Oyster farmers experience significant losses due to undetected low oxygen and other water quality events",
+      "explicitness": "explicit",
+      "evidence_span": "Oyster farmers lose a whole season of income when the water turns on them, and most of them find out after the oysters are already dead. Last August a farm in Maine lost four hundred thousand oysters in two days because of a low oxygen event that nobody saw coming.",
+      "status": "evidence_cited",
+      "status_span": "Last August a farm in Maine lost four hundred thousand oysters in two days because of a low oxygen event that nobody saw coming.",
+      "status_reason": "Specific incident with numbers cited",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P2",
+      "text": "A floating sensor can continuously measure oxygen, salinity, and temperature and alert farmers when readings cross danger lines",
+      "explicitness": "explicit",
+      "evidence_span": "Brinelog is a floating sensor the size of a coffee can that measures oxygen, salinity and temperature every minute and texts the farmer when a reading crosses a danger line.",
+      "status": "asserted",
+      "status_span": "",
+      "status_reason": "Stated as fact, no source",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P3",
+      "text": "A solar-powered sensor can operate without requiring servicing by the farmer",
+      "explicitness": "explicit",
+      "evidence_span": "The sensor runs on a small solar panel, so a farmer never has to service it",
+      "status": "asserted",
+      "status_span": "",
+      "status_reason": "Stated as fact, no source",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P4",
+      "text": "Timely alerts from the sensor enable farmers to act and reduce oyster losses",
+      "explicitness": "explicit",
+      "evidence_span": "Our alerts came on average two hours and ten minutes before the first oyster losses, and on the three farms that acted on them, losses were cut by about sixty percent.",
+      "status": "evidence_cited",
+      "status_span": "Our alerts came on average two hours and ten minutes before the first oyster losses, and on the three farms that acted on them, losses were cut by about sixty percent.",
+      "status_reason": "Own test with numbers and outcomes",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P5",
+      "text": "Marine insurers are willing to offer premium discounts to farms that use the sensor",
+      "explicitness": "explicit",
+      "evidence_span": "We have a letter of intent from a marine insurer that would discount premiums by up to ten percent for farms that use Brinelog",
+      "status": "evidence_cited",
+      "status_span": "We have a letter of intent from a marine insurer that would discount premiums by up to ten percent for farms that use Brinelog",
+      "status_reason": "Letter of intent from named third party",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P6",
+      "text": "Selling through state aquaculture extension offices is an effective channel because oyster farmers trust and contact them",
+      "explicitness": "explicit",
+      "evidence_span": "Our plan is to sell through the state aquaculture extension offices, because every oyster farmer in the country already trusts and calls them.",
+      "status": "evidence_cited",
+      "status_span": "because every oyster farmer in the country already trusts and calls them",
+      "status_reason": "Speaker cites widespread trust and contact as reason",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P7",
+      "text": "The same sensor technology could potentially serve shrimp and salmon farms",
+      "explicitness": "explicit",
+      "evidence_span": "Longer term we hope the same sensor can serve shrimp and salmon farms, although we have not tested that.",
+      "status": "speculative",
+      "status_span": "we hope the same sensor can serve shrimp and salmon farms, although we have not tested that",
+      "status_reason": "Marked with 'hope' and admits not tested",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    }
+  ],
+  "domains": [
+    {
+      "id": "D1",
+      "name": "Oyster farmer water quality loss problem",
+      "premise_ids": [
+        "P1"
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "Floating solar-powered sensor and alert mechanism",
+      "premise_ids": [
+        "P2",
+        "P3",
+        "P4"
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "Marine insurer premium discount",
+      "premise_ids": [
+        "P5"
+      ]
+    },
+    {
+      "id": "D4",
+      "name": "Sales channel through aquaculture extension offices",
+      "premise_ids": [
+        "P6"
+      ]
+    },
+    {
+      "id": "D5",
+      "name": "Sensor applicability to shrimp and salmon farms",
+      "premise_ids": [
+        "P7"
+      ]
+    }
+  ],
+  "links": [],
+  "challenge": {
+    "exchanges": [
+      {
+        "id": "Q1",
+        "targets": [
+          "P4"
+        ],
+        "new_condition": "",
+        "question_span": "How do you know the alerts are what saved the oysters and not the farmers just being careful that season?",
+        "answer_span": "We compared the three farms that acted against the three that did not, and the gap is the sixty percent. It is a small sample and I would not claim more.",
+        "response": "qualifies",
+        "question_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        },
+        "answer_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        }
+      },
+      {
+        "id": "Q2",
+        "targets": [
+          "P5"
+        ],
+        "new_condition": "",
+        "question_span": "Why would an insurer give a discount based on a sensor that sends a text?",
+        "answer_span": "The letter of intent is conditional on a second season of data, so honestly that part is not yet real.",
+        "response": "concedes",
+        "question_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        },
+        "answer_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        }
+      },
+      {
+        "id": "Q3",
+        "targets": [
+          "P6"
+        ],
+        "new_condition": "",
+        "question_span": "The extension offices are government employees, why would they recommend a paid product from a startup?",
+        "answer_span": "We have two offices who already have us on their recommended list, in Maine and in Nova Scotia, and they asked us to run a workshop.",
+        "response": "defends",
+        "question_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        },
+        "answer_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        }
+      },
+      {
+        "id": "Q4",
+        "targets": [],
+        "new_condition": "What stops a competitor from copying",
+        "question_span": "What stops a big sensor company from copying you in a year?",
+        "answer_span": "The oxygen drift problem is hard in salt water, and we have a calibration method that we filed a patent on in March.",
+        "response": "defends",
+        "question_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        },
+        "answer_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        }
+      }
+    ]
+  }
+}

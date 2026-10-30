@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "case_id": "lathework",
+    "model": "gpt-4.1",
+    "mode": "replay",
+    "extraction_run": 1,
+    "passes": {
+      "premises": {
+        "codebook_file": "v2_1_1_premises.public.md",
+        "codebook_version": "2.1.1",
+        "codebook_sha256": "3d9540169855edd480b1fa9008a7d860f4257704e782ea1424ac3aae69d75973",
+        "request_sha256": "eedc74550acfe5420c697375419fc1ec6838e257e61aa92ef585466d408a8584",
+        "reply_created_at": "2026-10-30T09:56:46+00:00"
+      },
+      "domains": {
+        "codebook_file": "v2_1_0_domains.public.md",
+        "codebook_version": "2.1.0",
+        "codebook_sha256": "e8b3d7b51879f042da61195ac75a0e4323b54473073fd63206d3994da3459839",
+        "request_sha256": "ac0b24e705836a539d570032de532b6e05c853fa9fb9e810a186d76b780d127c",
+        "reply_created_at": "2026-10-30T09:56:48+00:00"
+      },
+      "links_status": {
+        "codebook_file": "v3_0_0_links_status.md",
+        "codebook_version": "3.0.0",
+        "codebook_sha256": "6fa5952efb3b4e409ead074562c63d5e9af86c7203a20d3a80883f02506ce860",
+        "request_sha256": "95051fd7f9c8c70b49df5c68be6de96d440a5af7adb302e33dbe32f5cc8b7e64",
+        "reply_created_at": "2026-10-30T09:56:51+00:00"
+      },
+      "challenge": {
+        "codebook_file": "v3_0_0_challenge.md",
+        "codebook_version": "3.0.0",
+        "codebook_sha256": "25553e543ca7940e5dc48fe3952b11e8f6b31cd1f94c90beb283a4a0fa9044fe",
+        "request_sha256": "1b9d7e96eaea3b47c22adc8dda60af07a1417a6cc7a08ece63255ae86c4c5719",
+        "reply_created_at": "2026-10-30T09:56:53+00:00"
+      }
+    },
+    "validation_problems": [],
+    "dropped_links": [],
+    "source_check": {
+      "total": 18,
+      "quoted": 18,
+      "verbatim": 18,
+      "near": 0,
+      "none": 0,
+      "no_quote": 0,
+      "by_kind": {
+        "premise": {
+          "verbatim": 5,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        },
+        "status_cue": {
+          "verbatim": 4,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        },
+        "link": {
+          "verbatim": 1,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        },
+        "question": {
+          "verbatim": 4,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        },
+        "answer": {
+          "verbatim": 4,
+          "near": 0,
+          "none": 0,
+          "no_quote": 0
+        }
+      },
+      "share_supported": 1.0
+    }
+  },
+  "value": [
+    {
+      "id": "V1",
+      "text": "Vocational schools can fill teaching gaps and expand class sizes by connecting with qualified retired tradespeople",
+      "evidence_span": "Most schools right now cannot find enough teachers, so they cap their class sizes, and that is where we come in. A retired electrician can teach one evening class a week from our platform, and the school pays us twenty percent of the instructor fee."
+    }
+  ],
+  "premises": [
+    {
+      "id": "P1",
+      "text": "There is a shortage of electricians and plumbers and vocational schools cannot find enough teachers",
+      "explicitness": "explicit",
+      "evidence_span": "There is a shortage of electricians and plumbers and at the same time a lot of very good retired tradespeople who miss working. Our idea is simple. Lathework connects retired tradespeople with vocational schools that need part time instructors. Most schools right now cannot find enough teachers, so they cap their class sizes, and that is where we come in.",
+      "status": "asserted",
+      "status_span": "",
+      "status_reason": "Stated as fact, no source",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P2",
+      "text": "Retired tradespeople are willing to teach part time if given the opportunity to get paid and pass on their knowledge",
+      "explicitness": "explicit",
+      "evidence_span": "We believe retirees will want this because they get paid and because they get to pass on what they know.",
+      "status": "speculative",
+      "status_span": "We believe retirees will want this because they get paid and because they get to pass on what they know.",
+      "status_reason": "Marked with 'we believe'",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P3",
+      "text": "Schools will prefer Lathework to hiring adjuncts because Lathework handles background checks, scheduling, and payroll in one place",
+      "explicitness": "explicit",
+      "evidence_span": "We think schools will prefer us to hiring adjuncts, because we handle background checks, scheduling and payroll in one place.",
+      "status": "speculative",
+      "status_span": "We think schools will prefer us to hiring adjuncts, because we handle background checks, scheduling and payroll in one place.",
+      "status_reason": "Marked with 'we think'",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P4",
+      "text": "Some states allow non-certified instructors to teach in vocational schools",
+      "explicitness": "explicit",
+      "evidence_span": "We will start in three states where schools already have waivers for non-certified instructors.",
+      "status": "evidence_cited",
+      "status_span": "We will start in three states where schools already have waivers for non-certified instructors.",
+      "status_reason": "Specific states with waivers cited",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    },
+    {
+      "id": "P5",
+      "text": "A training module for first time teachers can help maintain high instructional quality",
+      "explicitness": "explicit",
+      "evidence_span": "We plan to add a training module for first time teachers so that quality stays high.",
+      "status": "expected",
+      "status_span": "We plan to add a training module for first time teachers so that quality stays high.",
+      "status_reason": "Plan, no marker of doubt",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      },
+      "status_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    }
+  ],
+  "domains": [
+    {
+      "id": "D1",
+      "name": "Shortage of vocational instructors and supply of retired tradespeople",
+      "premise_ids": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "id": "D2",
+      "name": "School adoption and operational advantages",
+      "premise_ids": [
+        "P3"
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "State waivers for non-certified instructors",
+      "premise_ids": [
+        "P4"
+      ]
+    },
+    {
+      "id": "D4",
+      "name": "Maintaining instructional quality through training",
+      "premise_ids": [
+        "P5"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "id": "L1",
+      "from": "P3",
+      "to": "V1",
+      "cue": "so",
+      "evidence_span": "We think schools will prefer us to hiring adjuncts, because we handle background checks, scheduling and payroll in one place.",
+      "evidence_span_check": {
+        "outcome": "verbatim",
+        "similarity": 1.0
+      }
+    }
+  ],
+  "challenge": {
+    "exchanges": [
+      {
+        "id": "Q1",
+        "targets": [],
+        "new_condition": "instructor retention after first semester",
+        "question_span": "How many of those came back for a second semester?",
+        "answer_span": "We will know in January, the semester is not over.",
+        "response": "deflects",
+        "question_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        },
+        "answer_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        }
+      },
+      {
+        "id": "Q2",
+        "targets": [],
+        "new_condition": "insurance coverage for instructors",
+        "question_span": "what about insurance, if a retiree teaches a welding class and somebody gets hurt?",
+        "answer_span": "The college's policy covers instructors on campus, we checked with them.",
+        "response": "defends",
+        "question_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        },
+        "answer_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        }
+      },
+      {
+        "id": "Q3",
+        "targets": [],
+        "new_condition": "schools bypassing platform to hire instructors directly",
+        "question_span": "isn't it easy for a school to go direct to the instructor once they have met them?",
+        "answer_span": "That is a risk. We have a clause in the contract but I do not know how enforceable it is.",
+        "response": "concedes",
+        "question_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        },
+        "answer_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        }
+      },
+      {
+        "id": "Q4",
+        "targets": [
+          "P4"
+        ],
+        "new_condition": "",
+        "question_span": "why those three states, is it only because of the waivers?",
+        "answer_span": "Mostly yes, and also our dean knows the state board.",
+        "response": "defends",
+        "question_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        },
+        "answer_span_check": {
+          "outcome": "verbatim",
+          "similarity": 1.0
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "similarity": {
+    "tfidf": {
+      "pitches": 371,
+      "within_mean": 0.07376832884097036,
+      "between_mean": 0.04176329649595687,
+      "sep_mean": 0.03145190566037736,
+      "sep_sd": 0.037076499156790794,
+      "share_positive": 0.816711590296496
+    },
+    "emb": {
+      "pitches": 371,
+      "within_mean": 0.6820863719676549,
+      "between_mean": 0.5703992964959569,
+      "sep_mean": 0.1120697897574124,
+      "sep_sd": 0.07047134567777714,
+      "share_positive": 0.9649595687331537
+    }
+  },
+  "survival": {
+    "sample": {
+      "pitches": 367,
+      "events": 39,
+      "closed_techcrunch": 72,
+      "min_words": 300
+    },
+    "controls": "pitch100 + year + hq_us + healthcare + sim_z",
+    "clustering": "event",
+    "models": {
+      "main": {
+        "label": "Separation (TF-IDF), TechCrunch outcome",
+        "formula": "survived_tc ~ sep_z + pitch100 + year + hq_us + healthcare + sim_z",
+        "term": "sep_z",
+        "b": 0.2965440686662219,
+        "se": 0.11441315790636117,
+        "p": 0.009545574456583251,
+        "odds_ratio_per_sd": 1.3452018399419334,
+        "n": 367,
+        "other": {}
+      },
+      "with_breadth": {
+        "label": "… adding breadth and breadth squared",
+        "formula": "survived_tc ~ sep_z + premises + I(premises**2) + pitch100 + year + hq_us + healthcare + sim_z",
+        "term": "sep_z",
+        "b": 0.3143025218457089,
+        "se": 0.12154682210135001,
+        "p": 0.009713763624365275,
+        "odds_ratio_per_sd": 1.3693039182433946,
+        "n": 367,
+        "other": {
+          "premises": {
+            "b": 1.3697060748432286,
+            "p": 0.001012942710363736
+          },
+          "I(premises ** 2)": {
+            "b": -0.07072675559114786,
+            "p": 0.0029737397095253187
+          }
+        }
+      },
+      "with_domains": {
+        "label": "… adding the number of domains",
+        "formula": "survived_tc ~ sep_z + domains + pitch100 + year + hq_us + healthcare + sim_z",
+        "term": "sep_z",
+        "b": 0.2964395454459467,
+        "se": 0.11479104577860359,
+        "p": 0.00981079927419975,
+        "odds_ratio_per_sd": 1.3450612424616812,
+        "n": 367,
+        "other": {
+          "domains": {
+            "b": 0.00854518600254769,
+            "p": 0.9486379444626167
+          }
+        }
+      },
+      "embedding": {
+        "label": "Separation (embeddings) instead of TF-IDF",
+        "formula": "survived_tc ~ sep_emb_z + pitch100 + year + hq_us + healthcare + sim_z",
+        "term": "sep_emb_z",
+        "b": 0.15122338814478498,
+        "se": 0.10317700365390811,
+        "p": 0.14273834508743297,
+        "odds_ratio_per_sd": 1.1632564867679038,
+        "n": 367,
+        "other": {}
+      }
+    }
+  },
+  "breadth": {
+    "formula": "survived_tc ~ premises + I(premises**2) + pitch100 + year + hq_us + healthcare + sim_z",
+    "n": 367,
+    "b_premises": 1.3148810762727627,
+    "p_premises": 0.0007395595604953704,
+    "b_premises_sq": -0.06804735203952257,
+    "p_premises_sq": 0.002529534933365768,
+    "turning_point": 9.661515377623122,
+    "turning_point_ci95": [
+      8.042860557388384,
+      11.28017019785786
+    ],
+    "lind_mehlum_p": 0.010263667766339375,
+    "range": [
+      4,
+      15
+    ],
+    "predicted_survival": {
+      "4": 0.4890926302194081,
+      "7": 0.8092818738679782,
+      "10": 0.8681782945262994,
+      "14": 0.6746818653497116
+    },
+    "pitches_by_premises": {
+      "4-5": 16,
+      "6-9": 283,
+      "10-12": 63,
+      "13+": 5
+    }
+  }
+}
