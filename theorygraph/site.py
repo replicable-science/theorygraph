@@ -19,6 +19,11 @@ from .util import DERIVED, EXAMPLES, LOGS, REPO, RESULTS, read_json
 
 HERO_CASE = "pilot-591"
 GALLERY = ["pilot-528", "pilot-1053"]
+# Real pitches for the explorer. Fixed rule, applied before reading outcomes: domains identical across the three
+# GPT-4o-mini runs, no withheld premise or value statement, a public recording, 6 to 10 premises and 3 or 4 domains.
+# Of the pitches that meet it, these three are from different years and industries and each states a whole theory:
+# the problem, the mechanism, and how the venture captures value.
+SHOW = ["pilot-1010", "pilot-881", "pilot-442"]
 FICTIONAL = {"brinelog": "Brinelog (sensors for oyster farms)", "lathework": "Lathework (retired tradespeople as instructors)",
              "recallpost": "Recallpost (no-show reminders for dental clinics)"}
 MODELS = ["gpt-4o-mini", "gpt-4.1"]
@@ -104,14 +109,31 @@ def graph_panel(g: dict, pitch: str, qa: str, key: str, active: bool) -> str:
 
 
 def explorer() -> str:
-    m = MODELS[0]
+    """Three real pitches. Premise statements are the model's wording; the founder's words stay in the public recording."""
+    cases = pd.read_csv(DERIVED / "cases.csv", dtype=str).set_index("case_id")
+    vids = pd.read_csv(REPO / "data" / "video_sources.csv", dtype=str, keep_default_na=False)
     out = ['<div class="tabs" id="explorer"><div class="tabrow" role="tablist" aria-label="Pitch">']
-    for i, (n, label) in enumerate(FICTIONAL.items()):
-        out.append(f'<button type="button" class="tab{" on" if i == 0 else ""}" data-group="pitch" data-val="{n}">{escape(label)}</button>')
+    for i, cid in enumerate(SHOW):
+        c = cases.loc[cid]
+        out.append(f'<button type="button" class="tab{" on" if i == 0 else ""}" data-group="pitch" data-val="{cid}">{escape(c.company)} ({escape(c.year)})</button>')
     out.append("</div>")
-    for n in FICTIONAL:
-        pitch, qa = load_example(n, EXAMPLES / "pitches")
-        out.append(graph_panel(read_json(RESULTS / "graphs" / f"{n}__{m}.json"), pitch, qa or "", f"{n}|{m}", n == "brinelog"))
+    for i, cid in enumerate(SHOW):
+        c = cases.loc[cid]
+        g = real_graph(cid)
+        v = vids[(vids.case_id == cid) & (vids.segment == "PITCH")]
+        link = f'<a href="{escape(v.iloc[0].video_url)}">public recording</a>' if len(v) and v.iloc[0].video_url else "recording"
+        out.append(f'<div class="panel{" active" if i == 0 else ""}" data-key="{cid}">')
+        out.append(f'<p class="muted"><b>{escape(c.company)}</b>, {escape(c.event)} ({escape(c.year)}), {escape(c.industry)}. '
+                   f'{len(g["premises"])} premises in {len(g["domains"])} strategic domains, read by GPT-4o mini. {link}.</p>')
+        out.append(f'<figure>{fg.network(g, title="Theory graph of " + c.company)}</figure>')
+        out.append('<details class="cards-detail"><summary>Every premise, in the model’s own wording</summary><div class="domains">')
+        for d in g["domains"]:
+            out.append(f'<section class="domain"><h4>{escape(d["name"])}</h4>')
+            for pid in d["premise_ids"]:
+                p = next(x for x in g["premises"] if x["id"] == pid)
+                out.append(f'<article class="premise" style="--c:#5b7896"><div class="pid">{escape(pid)}</div><div class="pbody"><p>{escape(p["text"])}</p></div></article>')
+            out.append("</section>")
+        out.append("</div></details></div>")
     out.append("</div>")
     return "".join(out)
 
@@ -183,8 +205,8 @@ code,pre{font-family:ui-monospace,Consolas,Menlo,monospace;font-size:.88rem}pre{
 
 JS = """
 document.documentElement.classList.add('js');
-(function(){var root=document.getElementById('explorer');if(!root)return;var sel={pitch:'brinelog',model:'gpt-4o-mini'};
-function show(){root.querySelectorAll('.panel').forEach(function(p){p.classList.toggle('active',p.dataset.key===sel.pitch+'|'+sel.model)});
+(function(){var root=document.getElementById('explorer');if(!root)return;var sel={pitch:'pilot-1010'};
+function show(){root.querySelectorAll('.panel').forEach(function(p){p.classList.toggle('active',p.dataset.key===sel.pitch)});
 root.querySelectorAll('.tab').forEach(function(t){t.classList.toggle('on',sel[t.dataset.group]===t.dataset.val)})}
 root.querySelectorAll('.tab').forEach(function(t){t.addEventListener('click',function(){sel[t.dataset.group]=t.dataset.val;show()})});show()})();
 """
@@ -304,7 +326,7 @@ def build_site() -> Path:
 <p><b>The questions we start with.</b> How broad is a founder’s theory, and how broad should it be? A narrow theory leaves conditions for value unexamined; a sprawling one is hard to test. And is it near-decomposable, in Simon’s sense: do premises depend on each other mainly within strategic domains, so that a failed premise forces a local revision rather than a new theory? And are ventures with more decomposable theories more likely to survive, as a theory of learning would predict? Section 3 gives first answers from the premises and domains; Stage 2 adds the dependencies founders state and the evidence they cite for each premise.</p>
 
 <h2 id="graph">2. Explore a theory graph</h2>
-<p>For real pitches we share the graph but not the founders’ words. To show every quoted passage, we wrote three <b>fictional</b> pitches and ran them through the same pipeline. Hover a node for its text; open the list below the graph to see each premise and link beside the passage it rests on and the result of the source check.</p>
+<p>Three pitches from the 375. They were chosen by a fixed rule, before any look at outcomes: the domains come out identical on all three runs, every statement can be shown, a public recording exists, and the theory has six to ten premises in three or four domains. These three are from different years and industries. Hover a node for its text. The words in the boxes are the model’s; the founder’s own words are in the recording, not in this repository.</p>
 {explorer()}
 <details><summary>Two more real pitches as theory graphs</summary>{gallery}</details>
 
@@ -340,7 +362,7 @@ def build_site() -> Path:
 </tbody></table>
 
 <p><b>What we read from it.</b> Ventures whose theories separate more cleanly into domains were more likely to stay open (odds ratio {sm['odds_ratio_per_sd']:.2f} per standard deviation), and this does not change when breadth and breadth squared or the number of domains are added. The association is weaker with an embedding-based measure of separation and rests on {sv['sample']['closed_techcrunch']} closures. We treat it as a hypothesis for Stage 2, not a finding. The direct test of near-decomposability, whether the dependencies founders state stay inside domains, needs the dependency pass on all pitches (Stage 2).</p>
-<p><b>Next: evidence and the judges’ questions.</b> Two further passes are built and tested on the fictional pitches in section 2: one codes how each premise is supported and which dependencies the founder states; one records which premise each of the judges’ questions tests and how the founders respond. Running them on all pitches is Stage 2 work.</p>
+<p><b>Next: evidence and the judges’ questions.</b> Two further passes are built and tested on three fictional pitches in <code>examples/</code>, so the pipeline can be replayed without using a real transcript: one codes how each premise is supported and which dependencies the founder states; one records which premise each of the judges’ questions tests and how the founders respond. Running them on all pitches is Stage 2 work.</p>
 
 <h2 id="audit">4. Can the measurement be trusted?</h2>
 <p>A language model always returns a theory graph. The call asks when AI-enabled research is valid science and when it builds “Potemkin villages”. We answer that for our own instrument with three checks.</p>
